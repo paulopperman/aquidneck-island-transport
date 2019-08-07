@@ -1,0 +1,9 @@
+<configuration>
+  <input>
+    <osm-files value="./osm_files/aquidneck_island.osm"/>
+    <type-file value="./typemaps/osmPolyconvert.typ.xml"/>
+  </input>
+  <output>
+    <output-file value="aquidneck_island_polys.pol.xml"/>
+  </output>
+</configuration>

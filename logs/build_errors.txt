@@ -1,0 +1,320 @@
+Warning: Discarding unknown compound 'cycleway.shared_lane' in type 'cycleway.shared_lane|highway.primary' (first occurence for edge '19346544#0').
+Warning: Discarding unknown compound 'cycleway.shared_lane' in type 'cycleway.shared_lane|highway.secondary' (first occurence for edge '19346551#0').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.primary' (first occurence for edge '19351916#0').
+Warning: Discarding unusable type 'railway.abandoned' (first occurence for edge '19354620#0').
+Warning: Discarding unknown compound 'cycleway.shared_lane' in type 'cycleway.shared_lane|highway.tertiary' (first occurence for edge '19359856#0').
+Warning: Discarding unusable type 'waterway.stream' (first occurence for edge '48615162').
+Warning: Discarding unknown compound 'cycleway.lane' in type 'cycleway.lane|highway.tertiary' (first occurence for edge '92367187#0').
+Warning: Discarding unusable type 'waterway.dam' (first occurence for edge '253992475').
+Warning: Discarding unusable type 'railway.disused' (first occurence for edge '287873431#0').
+Warning: Discarding unusable type 'railway.dismantled' (first occurence for edge '287879089').
+Warning: Discarding unusable type 'highway.construction' (first occurence for edge '287881472').
+Warning: Discarding unusable type 'route.ferry' (first occurence for edge '428452292#0').
+Warning: Discarding unusable type 'waterway.dock' (first occurence for edge '544843411#0').
+Warning: Discarding unusable type 'waterway.ditch' (first occurence for edge '616208716').
+Warning: from-edge of restriction relation could not be determined
+Warning: Ignoring restriction relation '4139188'.
+Warning: Ignoring restriction relation '8127113' with unknown type.
+Warning: Ignoring restriction relation '8127119' with unknown type.
+Warning: Ambiguity in turnarounds computation at junction '1178446888'.
+Warning: Ambiguity in turnarounds computation at junction '201004060'.
+Warning: Ambiguity in turnarounds computation at junction '201062284'.
+Warning: Ambiguity in turnarounds computation at junction '201062843'.
+Warning: Ambiguity in turnarounds computation at junction '201063192'.
+Warning: Ambiguity in turnarounds computation at junction '201063829'.
+Warning: Ambiguity in turnarounds computation at junction '201068574'.
+Warning: Ambiguity in turnarounds computation at junction '201076572'.
+Warning: Ambiguity in turnarounds computation at junction '201077499'.
+Warning: Ambiguity in turnarounds computation at junction '201077529'.
+Warning: Ambiguity in turnarounds computation at junction '201077601'.
+Warning: Ambiguity in turnarounds computation at junction '201077637'.
+Warning: Ambiguity in turnarounds computation at junction '201077838'.
+Warning: Ambiguity in turnarounds computation at junction '201078465'.
+Warning: Ambiguity in turnarounds computation at junction '201080053'.
+Warning: Ambiguity in turnarounds computation at junction '201080131'.
+Warning: Ambiguity in turnarounds computation at junction '201080179'.
+Warning: Ambiguity in turnarounds computation at junction '201080911'.
+Warning: Ambiguity in turnarounds computation at junction '201081483'.
+Warning: Ambiguity in turnarounds computation at junction '201082631'.
+Warning: Ambiguity in turnarounds computation at junction '201083155'.
+Warning: Ambiguity in turnarounds computation at junction '201083910'.
+Warning: Ambiguity in turnarounds computation at junction '201083958'.
+Warning: Ambiguity in turnarounds computation at junction '201086946'.
+Warning: Ambiguity in turnarounds computation at junction '201088802'.
+Warning: Ambiguity in turnarounds computation at junction '201098623'.
+Warning: Ambiguity in turnarounds computation at junction '201104134'.
+Warning: Ambiguity in turnarounds computation at junction '201106721'.
+Warning: Ambiguity in turnarounds computation at junction '201134905'.
+Warning: Ambiguity in turnarounds computation at junction '201148980'.
+Warning: Ambiguity in turnarounds computation at junction '201149688'.
+Warning: Ambiguity in turnarounds computation at junction '201174116'.
+Warning: Ambiguity in turnarounds computation at junction '201179178'.
+Warning: Ambiguity in turnarounds computation at junction '201179227'.
+Warning: Ambiguity in turnarounds computation at junction '201200530'.
+Warning: Ambiguity in turnarounds computation at junction '201201403'.
+Warning: Ambiguity in turnarounds computation at junction '201209727'.
+Warning: Ambiguity in turnarounds computation at junction '201210051'.
+Warning: Ambiguity in turnarounds computation at junction '201211114'.
+Warning: Ambiguity in turnarounds computation at junction '201236077'.
+Warning: Ambiguity in turnarounds computation at junction '201267462'.
+Warning: Ambiguity in turnarounds computation at junction '2182333003'.
+Warning: Ambiguity in turnarounds computation at junction '2182333004'.
+Warning: Ambiguity in turnarounds computation at junction '2390677179'.
+Warning: Ambiguity in turnarounds computation at junction '2493956020'.
+Warning: Ambiguity in turnarounds computation at junction '2493956041'.
+Warning: Ambiguity in turnarounds computation at junction '2697350043'.
+Warning: Ambiguity in turnarounds computation at junction '2697350100'.
+Warning: Ambiguity in turnarounds computation at junction '2697350145'.
+Warning: Ambiguity in turnarounds computation at junction '3838244288'.
+Warning: Ambiguity in turnarounds computation at junction '5161516547'.
+Warning: Ambiguity in turnarounds computation at junction '5222517025'.
+Warning: Ambiguity in turnarounds computation at junction '5364405958'.
+Warning: Ambiguity in turnarounds computation at junction '5418959937'.
+Warning: Ambiguity in turnarounds computation at junction '5737866939'.
+Warning: Ambiguity in turnarounds computation at junction '647221803'.
+Warning: Ambiguity in turnarounds computation at junction '6483526569'.
+Warning: Ambiguity in turnarounds computation at junction '6543955477'.
+Warning: Found sharp turn with radius 5.63 at the end of edge '-19348068'.
+Warning: Found sharp turn with radius 7.60 at the start of edge '-19348145'.
+Warning: Found sharp turn with radius 6.97 at the start of edge '-19348464#1'.
+Warning: Found sharp turn with radius 8.46 at the end of edge '-19348822#3'.
+Warning: Found sharp turn with radius 1.40 at the end of edge '-19348867'.
+Warning: Found sharp turn with radius 6.29 at the start of edge '-19349054#1'.
+Warning: Found sharp turn with radius 2.00 at the start of edge '-19349394'.
+Warning: Found sharp turn with radius 6.87 at the end of edge '-19349658#1'.
+Warning: Found sharp turn with radius 5.18 at the end of edge '-19350571#1'.
+Warning: Found sharp turn with radius 6.84 at the start of edge '-19352126#1'.
+Warning: Found sharp turn with radius 5.80 at the end of edge '-19352279'.
+Warning: Found angle of 102.57 degrees at edge '-19352478', segment 14
+Warning: Found sharp turn with radius 8.45 at the start of edge '-19353468#1'.
+Warning: Found sharp turn with radius 6.92 at the start of edge '-19353583#0'.
+Warning: Found sharp turn with radius 2.58 at the end of edge '-19353623'.
+Warning: Found sharp turn with radius 7.20 at the start of edge '-19354159#3'.
+Warning: Found sharp turn with radius 3.56 at the start of edge '-19354528#8'.
+Warning: Found sharp turn with radius 1.78 at the end of edge '-19354769#0'.
+Warning: Found sharp turn with radius 0.73 at the end of edge '-19355801'.
+Warning: Found sharp turn with radius 5.55 at the start of edge '-19356221'.
+Warning: Found sharp turn with radius 2.61 at the start of edge '-19356274'.
+Warning: Found sharp turn with radius 6.59 at the start of edge '-19356693#2'.
+Warning: Found sharp turn with radius 7.15 at the end of edge '-19357052#1'.
+Warning: Found sharp turn with radius 4.99 at the end of edge '-19357267#0'.
+Warning: Found sharp turn with radius 2.72 at the start of edge '-19357554#2'.
+Warning: Found sharp turn with radius 6.65 at the end of edge '-19357947#0'.
+Warning: Found sharp turn with radius 6.31 at the start of edge '-19357961#1'.
+Warning: Found sharp turn with radius 5.81 at the start of edge '-19358153#0'.
+Warning: Found sharp turn with radius 3.07 at the start of edge '-19358205'.
+Warning: Found angle of 124.85 degrees at edge '-19358364#1', segment 0
+Warning: Found sharp turn with radius 0.35 at the start of edge '-19358364#1'.
+Warning: Found sharp turn with radius 7.14 at the end of edge '-19359187'.
+Warning: Found sharp turn with radius 7.93 at the start of edge '-19359790'.
+Warning: Found sharp turn with radius 6.51 at the start of edge '-19360038#1'.
+Warning: Found angle of 99.35 degrees at edge '-19361045', segment 2
+Warning: Found sharp turn with radius 6.50 at the end of edge '-19361126#1'.
+Warning: Found sharp turn with radius 4.21 at the start of edge '-19361166#2'.
+Warning: Found sharp turn with radius 7.00 at the end of edge '-19361175#0'.
+Warning: Found sharp turn with radius 3.69 at the end of edge '-19361338'.
+Warning: Found sharp turn with radius 6.32 at the end of edge '-19361436#0'.
+Warning: Found sharp turn with radius 6.29 at the start of edge '-264060113#1'.
+Warning: Found sharp turn with radius 4.52 at the end of edge '-264060113#2'.
+Warning: Found sharp turn with radius 8.33 at the start of edge '-309979784#2'.
+Warning: Found sharp turn with radius 6.00 at the start of edge '-309979894#1'.
+Warning: Found angle of 100.44 degrees at edge '-309985951', segment 5
+Warning: Found sharp turn with radius 4.60 at the end of edge '-309985951'.
+Warning: Found angle of 137.74 degrees at edge '-309985953#1', segment 1
+Warning: Found sharp turn with radius 7.91 at the start of edge '-358384314#1'.
+Warning: Found sharp turn with radius 7.03 at the start of edge '-378219328#1'.
+Warning: Found angle of 102.85 degrees at edge '-383572813', segment 0
+Warning: Found angle of 101.86 degrees at edge '-410216576#0', segment 1
+Warning: Found sharp turn with radius 8.59 at the start of edge '-411916155#9'.
+Warning: Found sharp turn with radius 8.85 at the start of edge '-492860343#0'.
+Warning: Found sharp turn with radius 8.80 at the end of edge '-556092836#0'.
+Warning: Found sharp turn with radius 7.00 at the end of edge '-556102761#1'.
+Warning: Found angle of 103.34 degrees at edge '-605743697', segment 1
+Warning: Found angle of 115.35 degrees at edge '-646144098', segment 1
+Warning: Found sharp turn with radius 5.61 at the start of edge '-65355135#1'.
+Warning: Found angle of 117.94 degrees at edge '136726942#1', segment 6
+Warning: Found angle of 153.35 degrees at edge '136726942#2', segment 7
+Warning: Found sharp turn with radius 0.87 at the end of edge '136726942#2'.
+Warning: Found sharp turn with radius 5.63 at the start of edge '19348068'.
+Warning: Found sharp turn with radius 6.97 at the end of edge '19348464#1'.
+Warning: Found sharp turn with radius 8.46 at the start of edge '19348822#3'.
+Warning: Found sharp turn with radius 1.40 at the start of edge '19348867'.
+Warning: Found sharp turn with radius 6.29 at the end of edge '19349054#1'.
+Warning: Found sharp turn with radius 2.00 at the end of edge '19349394'.
+Warning: Found sharp turn with radius 6.87 at the start of edge '19349658#1'.
+Warning: Found sharp turn with radius 5.18 at the start of edge '19350571#1'.
+Warning: Found sharp turn with radius 5.80 at the start of edge '19352279'.
+Warning: Found angle of 102.57 degrees at edge '19352478', segment 4
+Warning: Found sharp turn with radius 8.45 at the end of edge '19353468#1'.
+Warning: Found sharp turn with radius 6.92 at the end of edge '19353583#0'.
+Warning: Found sharp turn with radius 2.58 at the start of edge '19353623'.
+Warning: Found sharp turn with radius 7.20 at the end of edge '19354159#3'.
+Warning: Found sharp turn with radius 3.56 at the end of edge '19354528#8'.
+Warning: Found sharp turn with radius 1.78 at the start of edge '19354769#0'.
+Warning: Found sharp turn with radius 0.73 at the start of edge '19355801'.
+Warning: Found sharp turn with radius 5.55 at the end of edge '19356221'.
+Warning: Found sharp turn with radius 2.61 at the end of edge '19356274'.
+Warning: Found sharp turn with radius 6.59 at the end of edge '19356693#2'.
+Warning: Found sharp turn with radius 7.15 at the start of edge '19357052#1'.
+Warning: Found sharp turn with radius 4.99 at the start of edge '19357267#0'.
+Warning: Found sharp turn with radius 2.72 at the end of edge '19357554#2'.
+Warning: Found sharp turn with radius 6.65 at the start of edge '19357947#0'.
+Warning: Found sharp turn with radius 6.31 at the end of edge '19357961#1'.
+Warning: Found sharp turn with radius 5.81 at the end of edge '19358153#0'.
+Warning: Found sharp turn with radius 3.07 at the end of edge '19358205'.
+Warning: Found angle of 124.85 degrees at edge '19358364#1', segment 1
+Warning: Found sharp turn with radius 0.35 at the end of edge '19358364#1'.
+Warning: Found sharp turn with radius 7.14 at the start of edge '19359187'.
+Warning: Found sharp turn with radius 6.51 at the end of edge '19360038#1'.
+Warning: Found angle of 99.35 degrees at edge '19361045', segment 3
+Warning: Found sharp turn with radius 6.50 at the start of edge '19361126#1'.
+Warning: Found sharp turn with radius 4.21 at the end of edge '19361166#2'.
+Warning: Found sharp turn with radius 7.00 at the start of edge '19361175#0'.
+Warning: Found sharp turn with radius 3.69 at the start of edge '19361338'.
+Warning: Found sharp turn with radius 6.32 at the start of edge '19361436#0'.
+Warning: Found angle of 99.47 degrees at edge '196784077#2', segment 15
+Warning: Found angle of 102.06 degrees at edge '196784077#2', segment 24
+Warning: Found angle of 103.05 degrees at edge '207967978#0', segment 9
+Warning: Found angle of 112.11 degrees at edge '207967982', segment 11
+Warning: Found angle of 112.60 degrees at edge '207967984#3', segment 0
+Warning: Found sharp turn with radius 7.35 at the start of edge '207967984#3'.
+Warning: Found angle of 133.32 degrees at edge '229556365', segment 0
+Warning: Found sharp turn with radius 4.34 at the start of edge '230520136#0'.
+Warning: Found sharp turn with radius 7.11 at the start of edge '230520136#1'.
+Warning: Found sharp turn with radius 8.70 at the end of edge '230520136#1'.
+Warning: Found sharp turn with radius 8.35 at the end of edge '230520148'.
+Warning: Found sharp turn with radius 8.33 at the end of edge '231383650#5'.
+Warning: Found sharp turn with radius 8.63 at the start of edge '264060106#2'.
+Warning: Found sharp turn with radius 6.29 at the end of edge '264060113#1'.
+Warning: Found sharp turn with radius 4.52 at the start of edge '264060113#2'.
+Warning: Found sharp turn with radius 8.33 at the end of edge '309979784#2'.
+Warning: Found sharp turn with radius 6.00 at the end of edge '309979894#1'.
+Warning: Found sharp turn with radius 7.72 at the start of edge '309980233'.
+Warning: Found angle of 119.64 degrees at edge '309984773', segment 4
+Warning: Found angle of 109.80 degrees at edge '309985021#1', segment 7
+Warning: Found sharp turn with radius 8.82 at the start of edge '309985021#2'.
+Warning: Found angle of 102.49 degrees at edge '309985119', segment 2
+Warning: Found sharp turn with radius 3.92 at the end of edge '309985119'.
+Warning: Found angle of 100.44 degrees at edge '309985951', segment 0
+Warning: Found sharp turn with radius 4.60 at the start of edge '309985951'.
+Warning: Found angle of 137.74 degrees at edge '309985953#1', segment 1
+Warning: Found sharp turn with radius 7.91 at the end of edge '358384314#1'.
+Warning: Found sharp turn with radius 8.58 at the start of edge '371949294#0'.
+Warning: Found sharp turn with radius 8.46 at the end of edge '371949294#0'.
+Warning: Found sharp turn with radius 8.53 at the start of edge '371949294#1'.
+Warning: Found sharp turn with radius 8.46 at the start of edge '371949294#2'.
+Warning: Found sharp turn with radius 8.47 at the start of edge '371949294#3'.
+Warning: Found sharp turn with radius 8.60 at the end of edge '371949294#3'.
+Warning: Found sharp turn with radius 8.42 at the start of edge '371949294#4'.
+Warning: Found sharp turn with radius 8.45 at the start of edge '371949294#5'.
+Warning: Found sharp turn with radius 3.27 at the start of edge '371949304#1'.
+Warning: Found sharp turn with radius 3.31 at the end of edge '371949304#1'.
+Warning: Found sharp turn with radius 2.97 at the start of edge '371949304#2'.
+Warning: Found sharp turn with radius 3.01 at the end of edge '371949304#2'.
+Warning: Found sharp turn with radius 7.03 at the end of edge '378219328#1'.
+Warning: Found angle of 102.85 degrees at edge '383572813', segment 2
+Warning: Found angle of 126.23 degrees at edge '392356224#0', segment 9
+Warning: Found angle of 101.86 degrees at edge '410216576#0', segment 0
+Warning: Found sharp turn with radius 5.79 at the start of edge '411916155#12'.
+Warning: Found sharp turn with radius 6.10 at the start of edge '411916155#9'.
+Warning: Found angle of 102.65 degrees at edge '432062186', segment 118
+Warning: Found sharp turn with radius 5.65 at the end of edge '440717121#2'.
+Warning: Found angle of 101.60 degrees at edge '440717163#0', segment 1
+Warning: Found angle of 107.06 degrees at edge '440717163#5', segment 12
+Warning: Found sharp turn with radius 8.86 at the start of edge '458997561#1'.
+Warning: Found angle of 102.59 degrees at edge '48615159#2', segment 14
+Warning: Found angle of 104.30 degrees at edge '48615159#4', segment 53
+Warning: Found sharp turn with radius 7.24 at the start of edge '48616091'.
+Warning: Found sharp turn with radius 8.85 at the end of edge '492860343#0'.
+Warning: Found angle of 108.40 degrees at edge '527396666#1', segment 7
+Warning: Found angle of 101.12 degrees at edge '527397879#0', segment 6
+Warning: Found sharp turn with radius 8.78 at the start of edge '547697353#2'.
+Warning: Found sharp turn with radius 8.25 at the end of edge '547705429#3'.
+Warning: Found angle of 99.86 degrees at edge '555032655#2', segment 10
+Warning: Found sharp turn with radius 8.80 at the start of edge '556092836#0'.
+Warning: Found sharp turn with radius 7.00 at the start of edge '556102761#1'.
+Warning: Found sharp turn with radius 5.64 at the start of edge '556853754'.
+Warning: Found sharp turn with radius 7.18 at the start of edge '562066833#0'.
+Warning: Found angle of 103.34 degrees at edge '605743697', segment 0
+Warning: Found sharp turn with radius 6.86 at the end of edge '625888514#0'.
+Warning: Found sharp turn with radius 8.85 at the start of edge '629887169#0'.
+Warning: Found angle of 115.35 degrees at edge '646144098', segment 1
+Warning: Found sharp turn with radius 5.61 at the end of edge '65355135#1'.
+Warning: Found sharp turn with radius 8.67 at the start of edge '667225104#0'.
+Warning: Found sharp turn with radius 5.40 at the end of edge '667225104#0'.
+Warning: Found sharp turn with radius 3.39 at the start of edge '667225104#1'.
+Warning: Found sharp turn with radius 4.27 at the end of edge '667225104#1'.
+Warning: Found sharp turn with radius 4.53 at the start of edge '667225104#2'.
+Warning: Found sharp turn with radius 2.25 at the start of edge '667242644#2'.
+Warning: Found sharp turn with radius 3.42 at the end of edge '691005913'.
+Warning: Found sharp turn with radius 4.93 at the start of edge '702528509'.
+Warning: Shape for junction '201081768' has distance 23.19 to its given position
+Warning: Shape for junction '201180812' has distance 35.59 to its given position
+Warning: Shape for junction '201207676' has distance 32.33 to its given position
+Warning: Lane '-19358708_0' is not connected from any incoming edge at junction '201228755'.
+Warning: Lane '380497251_0' is not connected from any incoming edge at junction '201185696'.
+Warning: Lane '516916976_0' is not connected from any incoming edge at junction '201096950'.
+Warning: Minor green from edge '411934540#7' to edge '19359609#0' exceeds 19.44m/s. Maybe a left-turn lane is missing.
+Warning: Speed of straight connection '19343136#1_0->19343136#0_0' reduced by 7.94 due to turning radius of 1.91 (length=2.65 angle=152.17)
+Warning: Speed of straight connection '19350535_0->19347898#1_0' reduced by 9.55 due to turning radius of 29.18 (length=9.82 angle=34.82)
+Warning: Speed of straight connection '19348019#0_0->19348019#1_0' reduced by 10.50 due to turning radius of 24.99 (length=10.84 angle=40.67)
+Warning: Speed of straight connection '-309822235#9_1->19348150_0' reduced by 7.72 due to turning radius of 14.66 (length=8.04 angle=48.23)
+Warning: Speed of straight connection '19348464#1_0->-19349713_0' reduced by 5.27 due to turning radius of 6.35 (length=9.37 angle=111.75)
+Warning: Speed of straight connection '-19348682#0_0->-19348682#1_0' reduced by 7.83 due to turning radius of 2.04 (length=3.03 angle=155.01)
+Warning: Speed of straight connection '-19351126_0->548021856_0' reduced by 6.86 due to turning radius of 3.40 (length=1.14 angle=40.04)
+Warning: Speed of straight connection '-19348867_0->19359221#0_0' reduced by 8.54 due to turning radius of 1.27 (length=1.33 angle=178.98)
+Warning: Speed of straight connection '19348923#0_1->19348923#1_1' reduced by 9.17 due to turning radius of 30.98 (length=9.06 angle=32.20)
+Warning: Speed of straight connection '656588279_0->42879083#2_1' reduced by 12.48 due to turning radius of 28.50 (length=14.85 angle=45.72)
+Warning: Speed of turning connection '19350356#3_1->71479319#0_2' reduced by 22.32 due to turning radius of 5.43 (length=11.34 angle=155.48)
+Warning: Speed of straight connection '44486245_0->19350356#2_1' reduced by 6.64 due to turning radius of 18.28 (length=8.50 angle=42.86)
+Warning: Speed of straight connection '506440463#1_0->-586093473#0_1' reduced by 6.85 due to turning radius of 17.62 (length=8.86 angle=45.19)
+Warning: Speed of straight connection '19351054_0->506440463#0_0' reduced by 9.83 due to turning radius of 27.89 (length=11.52 angle=39.36)
+Warning: Speed of straight connection '19350447_1->-586093484#2_1' reduced by 5.43 due to turning radius of 27.89 (length=18.11 angle=53.29)
+Warning: Speed of straight connection '19350732_1->19358021#1_1' reduced by 10.09 due to turning radius of 40.41 (length=15.18 angle=36.96)
+Warning: Speed of straight connection '19350819_1->-276815501#0_1' reduced by 6.46 due to turning radius of 30.81 (length=12.24 angle=38.36)
+Warning: Speed of straight connection '19350822#1_1->309822232#0_1' reduced by 5.27 due to turning radius of 23.77 (length=11.08 angle=42.64)
+Warning: Speed of straight connection '596595945#2_0->19350830_1' reduced by 7.75 due to turning radius of 14.55 (length=17.95 angle=89.79)
+Warning: Speed of straight connection '-19350830_1->-596595945#2_0' reduced by 5.69 due to turning radius of 22.04 (length=20.34 angle=69.88)
+Warning: Speed of straight connection '19350830_1->-19348742#21_1' reduced by 5.76 due to turning radius of 21.75 (length=12.30 angle=48.63)
+Warning: Connection '19350836#1_0->-229788928#12_1' is only 0.08 short.
+Warning: Speed of straight connection '-19351094#0_0->-19351094#1_0' reduced by 5.40 due to turning radius of 6.07 (length=10.29 angle=126.88)
+Warning: Speed of straight connection '-19359210#0_0->-19352435_0' reduced by 6.88 due to turning radius of 3.37 (length=1.16 angle=40.93)
+Warning: Speed of straight connection '-19352733_0->-19353623_0' reduced by 6.77 due to turning radius of 3.54 (length=1.04 angle=36.66)
+Warning: Speed of straight connection '19361226#2_0->-19352893#2_0' reduced by 6.90 due to turning radius of 3.34 (length=1.19 angle=41.76)
+Warning: Speed of straight connection '616852539#0_1->19352915_0' reduced by 7.68 due to turning radius of 14.80 (length=10.05 angle=56.14)
+Warning: Speed of straight connection '19361235#1_0->-19353134_0' reduced by 6.83 due to turning radius of 3.44 (length=1.11 angle=39.02)
+Warning: Speed of straight connection '19353548#4_0->19354769#0_0' reduced by 5.83 due to turning radius of 5.20 (length=2.93 angle=53.16)
+Warning: Speed of straight connection '-19353623_0->19360461#0_0' reduced by 7.71 due to turning radius of 2.19 (length=1.75 angle=87.47)
+Warning: Speed of straight connection '19353633_0->19354265_0' reduced by 6.87 due to turning radius of 3.39 (length=1.14 angle=40.37)
+Warning: Speed of straight connection '19353671#1_0->19353671#0_0' reduced by 6.57 due to turning radius of 3.87 (length=7.71 angle=158.84)
+Warning: Speed of straight connection '-646148600_0->19357438_0' reduced by 5.05 due to turning radius of 6.84 (length=1.05 angle=24.92)
+Warning: Speed of straight connection '-19353971#0_0->-19353942#3_0' reduced by 6.77 due to turning radius of 3.54 (length=1.04 angle=36.78)
+Warning: Speed of straight connection '19354475#1_0->19354475#0_0' reduced by 7.52 due to turning radius of 2.43 (length=4.33 angle=167.00)
+Warning: Speed of straight connection '-19358943#0_1->-276815501#1_1' reduced by 7.43 due to turning radius of 75.28 (length=25.02 angle=34.25)
+Warning: Speed of straight connection '-19358943#0_2->-276815501#1_2' reduced by 6.64 due to turning radius of 81.29 (length=27.04 angle=34.25)
+Warning: Speed of straight connection '276815501#1_1->-19355159#20_2' reduced by 9.00 due to turning radius of 64.12 (length=26.29 angle=38.79)
+Warning: Speed of straight connection '276815501#1_1->19358943#0_1' reduced by 5.13 due to turning radius of 93.28 (length=31.06 angle=34.25)
+Warning: Speed of straight connection '276815501#1_2->19358943#0_2' reduced by 5.87 due to turning radius of 87.30 (length=29.06 angle=34.25)
+Warning: Speed of straight connection '19354721#1_0->19354721#0_0' reduced by 8.54 due to turning radius of 1.26 (length=1.30 angle=175.63)
+Warning: Speed of straight connection '-19354889_0->-19360533#3_0' reduced by 6.88 due to turning radius of 3.36 (length=1.17 angle=41.22)
+Warning: Speed of straight connection '-19355801_0->-19361407_0' reduced by 8.14 due to turning radius of 1.68 (length=2.54 angle=180.00)
+Warning: Speed of straight connection '19361407_0->19355801_0' reduced by 5.97 due to turning radius of 4.93 (length=5.04 angle=85.04)
+Warning: Speed of straight connection '19356735#2_0->-19360432#1_0' reduced by 6.73 due to turning radius of 3.60 (length=1.01 angle=35.65)
+Warning: Speed of straight connection '92372365_1->-92384067_1' reduced by 5.25 due to turning radius of 36.82 (length=15.50 angle=39.65)
+Warning: Speed of turning connection '92372365_2->661055496_2' reduced by 22.72 due to turning radius of 4.66 (length=8.21 angle=136.80)
+Warning: Speed of straight connection '-264060094_0->-42879069#5_1' reduced by 7.72 due to turning radius of 25.15 (length=10.16 angle=38.91)
+Warning: Speed of straight connection '-19358221#0_1->-19357408#1_1' reduced by 12.44 due to turning radius of 42.79 (length=10.90 angle=29.87)
+Warning: Speed of straight connection '-19358221#0_2->-19357408#1_2' reduced by 12.13 due to turning radius of 44.53 (length=11.35 angle=29.87)
+Warning: Speed of straight connection '19357408#1_1->19358221#0_1' reduced by 9.62 due to turning radius of 59.95 (length=10.90 angle=25.56)
+Warning: Speed of straight connection '19357408#1_2->19358221#0_2' reduced by 9.44 due to turning radius of 61.14 (length=11.12 angle=25.56)
+Warning: Speed of straight connection '19357554#2_0->-19358689#1_0' reduced by 7.91 due to turning radius of 1.94 (length=1.48 angle=89.34)
+Warning: Speed of straight connection '-19358133#0_0->19360432#0_0' reduced by 6.84 due to turning radius of 3.42 (length=1.11 angle=39.34)
+Warning: Speed of straight connection '19361256_0->19358355#0_0' reduced by 6.79 due to turning radius of 3.51 (length=1.06 angle=37.34)
+Warning: Speed of straight connection '-19360535#0_0->19358410#0_0' reduced by 6.78 due to turning radius of 3.52 (length=1.05 angle=37.20)
+Warning: Speed of straight connection '-456394370_0->-264060105#4_0' reduced by 5.35 due to turning radius of 6.18 (length=1.15 angle=27.27)
+Warning: Speed of straight connection '-19356419#1_0->-19356419#0_0' reduced by 6.88 due to turning radius of 3.37 (length=1.16 angle=40.90)
+Warning: Speed of straight connection '-264060110#2_0->-264060110#1_0' reduced by 6.85 due to turning radius of 3.41 (length=1.12 angle=39.65)
+Warning: Speed of turning connection '287882301#1_0->203954203#14_0' reduced by 80.56 due to turning radius of 1.39 (length=1.46 angle=175.56)
+Warning: Speed of straight connection '309818246#0_1->309818246#1_1' reduced by 9.82 due to turning radius of 27.96 (length=5.90 angle=27.45)
+Warning: Speed of straight connection '-380497254#4_0->-380497254#3_0' reduced by 6.86 due to turning radius of 3.39 (length=1.14 angle=40.25)
+Warning: Speed of straight connection '425117498_0->19349541#1_0' reduced by 11.13 due to turning radius of 22.37 (length=8.20 angle=36.78)

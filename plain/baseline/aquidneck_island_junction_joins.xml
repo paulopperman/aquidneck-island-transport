@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 08/07/19 19:47:51 by Eclipse SUMO netconvert Version 1.2.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="./typemaps/netconvert.typ.xml"/>
+        <polygon-files value="aquidneck_island_polys.pol.xml"/>
+        <osm-files value="./osm_files/aquidneck_island.osm"/>
+    </input>
+
+    <output>
+        <output-file value="aquidneck_island_baseline.net.xml"/>
+        <plain-output-prefix value="./plain/baseline/aquidneck_island"/>
+        <junctions.join-output value="./plain/baseline/aquidneck_island_junction_joins.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <building_defaults>
+        <default.speed value="11.18"/>
+        <default.junctions.keep-clear value="false"/>
+    </building_defaults>
+
+    <tls_building>
+        <tls.join value="true"/>
+        <tls.default-type value="static"/>
+    </tls_building>
+
+    <junctions>
+        <no-turnarounds.except-deadend value="true"/>
+        <junctions.join value="false"/>
+        <junctions.join-dist value="15"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="false"/>
+    </pedestrian>
+
+    <formats>
+        <osm.elevation value="true"/>
+    </formats>
+
+    <report>
+        <message-log value="./logs/build_messages.txt"/>
+        <error-log value="./logs/build_errors.txt"/>
+    </report>
+
+</configuration>
+-->
+
+<nodes version="1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+</nodes>

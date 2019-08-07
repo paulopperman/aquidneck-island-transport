@@ -1,0 +1,65 @@
+Parsing types from './typemaps/netconvert.typ.xml'... done.
+Parsing nodes from osm-file './osm_files/aquidneck_island.osm'... 
+Found duplicate nodes. Substituting 357260211 with 357259525
+Found duplicate nodes. Substituting 366687952 with 357259485
+Found duplicate nodes. Substituting 366690044 with 357259922
+Found duplicate nodes. Substituting 366690061 with 357259934
+Found duplicate nodes. Substituting 366690083 with 366687955
+Found duplicate nodes. Substituting 366690934 with 366690032
+Found duplicate nodes. Substituting 5418889133 with 201067006
+Found duplicate nodes. Substituting 5598344721 with 5002411777
+Found duplicate nodes. Substituting 5909258238 with 5909258237
+done.
+Parsing edges from osm-file './osm_files/aquidneck_island.osm'... done.
+Removing duplicate edges... done.
+Parsing relations from osm-file './osm_files/aquidneck_island.osm'... 
+done.
+Parsing polygon data from 'aquidneck_island_polys.pol.xml'... done.
+ Import done:
+   8042 nodes loaded.
+   32 types loaded.
+   18755 edges loaded.
+Proj projection parameters used: '+proj=utm +zone=19 +ellps=WGS84 +datum=WGS84 +units=m +no_defs'.
+Removing self-loops... done (1ms).
+Removing empty nodes... done (16ms).
+   100 nodes removed.
+Moving network to origin... done (13ms).
+Computing turning directions... 
+done (282ms).
+Assigning nodes to traffic lights... done (0ms).
+Sorting nodes' edges... done (19ms).
+Computing node shapes... 
+done (573ms).
+Computing edge shapes... done (172ms).
+Computing node types... done (9ms).
+Computing priorities... done (10ms).
+Computing approached edges... done (32ms).
+Guessing and setting roundabouts... 
+ Guessed 6 roundabout(s).
+done (3ms).
+Computing approaching lanes... done (94ms).
+Dividing of lanes on approached lanes... done (56ms).
+Processing turnarounds... done (3ms).
+Rechecking of lane endings... 
+done (29ms).
+Joining traffic light nodes... done (12ms).
+Computing traffic light control information... done (3ms).
+Computing node logics... done (114ms).
+Computing traffic light logics... 
+done (11ms).
+ 55 traffic light(s) computed.
+Building inner edges... 
+done (767ms).
+-----------------------------------------------------
+Summary:
+ Node type statistics:
+  Unregulated junctions       : 0
+  Dead-end junctions          : 364
+  Priority junctions          : 4488
+  Right-before-left junctions : 3090
+ Network boundaries:
+  Original boundary  : -71.56,41.17,-71.14,41.82
+  Applied offset     : -298290.21,-4591339.97
+  Converted boundary : 0.00,0.00,23820.78,26810.49
+-----------------------------------------------------
+Writing network... done (3077ms).
