@@ -1,6 +1,7 @@
 <configuration>
   <input>
     <osm-files value="./osm_files/aquidneck_island.osm"/>
+    <net-file value="aquidneck_island_baseline.net.xml"/>
     <type-file value="./typemaps/osmPolyconvert.typ.xml"/>
   </input>
   <output>
