@@ -1,7 +1,7 @@
 # SUMO Model of Aquidneck Island
 This repository contains a network model around Aquidneck Island for use in [SUMO](https://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) simulations.
 
-![network overview](images\netedit_overview_map.png)
+![network overview](images/netedit_overview_map.png)
 
 This code base is designed to allow customization of the SUMO network based on OpenStreetMap data, in such a way that it can be reconstituted from scratch using `netconvert`.
 
