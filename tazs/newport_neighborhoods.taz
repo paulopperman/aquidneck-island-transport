@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 08/08/19 12:15:55 by Eclipse SUMO netedit Version 1.2.0
+<!-- generated on 09/01/19 11:26:52 by Eclipse SUMO netedit Version 1.2.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -18,7 +18,6 @@
     </processing>
 
     <junctions>
-        <no-internal-links value="false"/>
         <no-turnarounds value="true"/>
         <junctions.corner-detail value="5"/>
         <junctions.limit-turn-speed value="5.5"/>
@@ -2276,6 +2275,50 @@
         <tazSink weight="1.00" id="-19357284#2"/>
         <tazSink weight="1.00" id="-19357284#1"/>
         <tazSink weight="1.00" id="19357284#1"/>
+    </taz>
+    <taz id="ocean_drive" shape="6697.97,3612.56 7410.42,2842.34 7635.07,2142.73 8020.17,1866.73 10067.66,1956.59 9246.10,-122.99 4567.04,-45.97 4143.42,1449.53 6415.56,3618.97 6697.97,3612.56" color="blue">
+        <tazSource weight="0.00" id="19359569#0"/>
+        <tazSource weight="10.00" id="19359572"/>
+        <tazSource weight="1.00" id="19352833#0"/>
+        <tazSource weight="1.00" id="-19357331#0"/>
+        <tazSource weight="1.00" id="19357331#0"/>
+        <tazSource weight="1.00" id="-19355767"/>
+        <tazSource weight="1.00" id="19355767"/>
+        <tazSource weight="1.00" id="-19356565"/>
+        <tazSource weight="1.00" id="19356565"/>
+        <tazSource weight="1.00" id="-19354869#1"/>
+        <tazSource weight="1.00" id="19354869#1"/>
+        <tazSource weight="1.00" id="19350967"/>
+        <tazSource weight="1.00" id="-19350967"/>
+        <tazSource weight="1.00" id="19353189"/>
+        <tazSource weight="1.00" id="-19353189"/>
+        <tazSource weight="1.00" id="-182062886#0"/>
+        <tazSource weight="1.00" id="182062886#0"/>
+        <tazSource weight="1.00" id="19359644#1"/>
+        <tazSource weight="1.00" id="-19359644#1"/>
+        <tazSource weight="1.00" id="440717109#5"/>
+        <tazSource weight="1.00" id="-440717109#5"/>
+        <tazSink weight="10.00" id="19359569#0"/>
+        <tazSink weight="0.00" id="19359572"/>
+        <tazSink weight="1.00" id="19352833#0"/>
+        <tazSink weight="1.00" id="-19357331#0"/>
+        <tazSink weight="1.00" id="19357331#0"/>
+        <tazSink weight="1.00" id="-19355767"/>
+        <tazSink weight="1.00" id="19355767"/>
+        <tazSink weight="1.00" id="-19356565"/>
+        <tazSink weight="1.00" id="19356565"/>
+        <tazSink weight="1.00" id="-19354869#1"/>
+        <tazSink weight="1.00" id="19354869#1"/>
+        <tazSink weight="1.00" id="19350967"/>
+        <tazSink weight="1.00" id="-19350967"/>
+        <tazSink weight="1.00" id="19353189"/>
+        <tazSink weight="1.00" id="-19353189"/>
+        <tazSink weight="1.00" id="-182062886#0"/>
+        <tazSink weight="1.00" id="182062886#0"/>
+        <tazSink weight="1.00" id="19359644#1"/>
+        <tazSink weight="1.00" id="-19359644#1"/>
+        <tazSink weight="1.00" id="440717109#5"/>
+        <tazSink weight="1.00" id="-440717109#5"/>
     </taz>
     <taz id="off_island_north" shape="12475.46,24260.53 22947.62,24181.63 22811.34,20545.07 18780.27,20688.52 16728.88,23141.59 12647.60,20387.27 12116.82,23435.67 12475.46,24260.53" color="orange">
         <tazSource weight="1.00" id="-92384023#1"/>
