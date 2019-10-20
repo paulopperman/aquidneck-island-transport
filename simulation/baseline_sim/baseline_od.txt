@@ -1,0 +1,14 @@
+$OR;D2
+* From-Time To-Time
+0.00  1.00
+* Factor
+100
+* this matrix is for network testing purposes.
+*From         to                factor
+americas_cup  bellevue          1.0
+americas_cup  bliss             1.0
+americas_cup  bowery            1.0
+americas_cup  warner            1.0
+bellevue      bliss             1.0
+bellevue      bowery            1.0
+bliss         broadway_business 1.0
