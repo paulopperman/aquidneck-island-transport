@@ -5,7 +5,7 @@ This repository contains a network model around Aquidneck Island for use in [SUM
 
 This code base is designed to allow customization of the SUMO network based on OpenStreetMap data, in such a way that it can be reconstituted from scratch using `netconvert`.
 
-## Workflow
+## Mapping Workflow
 
 1. Obtain source data
 Download the OpenStreetMap data from overpass by navigating to [https://overpass-api.de/api/map?bbox=-71.4022,41.4471,-71.1742,41.6578
@@ -21,3 +21,7 @@ As much as possible should be included by editing either the OpenStreetMap datab
 ### Tracking network changes
 
 When editing using NETEDIT, save the network as a new set of plain xml files.  **Work is in progress to generate patch files using xmldiff.**
+
+
+## Running a Simulation
+A sample simulation can be built using the `newport_neighborhoods.xml` traffic assignment zones and `OD2TRIPS`. Build the trip configuration file by calling `OD2TRIPS -c baseline_trip_config.cfg.xml`.  Then run `baseline_sim_config.sumocfg` in SUMO or SUMO-GUI.
