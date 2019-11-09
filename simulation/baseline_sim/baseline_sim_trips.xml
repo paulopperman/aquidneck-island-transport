@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 10/20/19 10:30:48 by Eclipse SUMO od2trips Version 1.3.1
+<!-- generated on 11/09/19 10:07:02 by Eclipse SUMO od2trips Version 1.3.1
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/od2tripsConfiguration.xsd">
 
     <input>
@@ -14,7 +14,6 @@
 
     <report>
         <error-log value="router_errors.txt"/>
-        <ignore-errors value="true"/>
     </report>
 
 </configuration>
@@ -70,7 +69,7 @@
     <trip id="68" depart="212.57" from="-19358499#0" to="-19359987" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="147" depart="214.16" from="19355636" to="19360353#2" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="264" depart="222.36" from="19355636" to="19352131#10" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="362" depart="224.07" from="-19358499#0" to="19352126#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="362" depart="224.07" from="-19358499#0" to="19351859#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="27" depart="238.38" from="511366397" to="661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="534" depart="240.79" from="19357539#1" to="-19357968" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="511" depart="243.94" from="19357539#1" to="-19357057#5" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -79,7 +78,7 @@
     <trip id="422" depart="260.97" from="19359987" to="19353810#1" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="502" depart="272.92" from="-19355160#3" to="-19357057#4" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="618" depart="278.44" from="-19352285#7" to="19354745#1" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
-    <trip id="356" depart="280.53" from="19353318" to="-19356054" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="356" depart="280.53" from="19353318" to="19356054" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="609" depart="284.18" from="-19357988" to="-19356382#35" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="197" depart="292.21" from="-19353318" to="-19356535#8" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="408" depart="294.01" from="19356025#1" to="-19352285#12" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
@@ -89,13 +88,13 @@
     <trip id="661" depart="306.30" from="-19354956#1" to="661061473#1" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="260" depart="312.98" from="-19358499#0" to="19357057#4" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="413" depart="314.38" from="19355160#0" to="-19356535#5" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="326" depart="320.66" from="-19358499#0" to="19358324" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="326" depart="320.66" from="-19358499#0" to="-19356054" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="98" depart="322.82" from="19358499#0" to="19355160#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="70" depart="325.69" from="-19358499#0" to="-19352037" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="180" depart="326.27" from="19355636" to="-19352542" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="343" depart="327.86" from="19358499#0" to="329995319#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="343" depart="327.86" from="19358499#0" to="-329995319#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="593" depart="335.03" from="19352037" to="-19357968" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="369" depart="340.73" from="-19358499#1" to="-19354183#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="369" depart="340.73" from="-19358499#1" to="-19354183#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="582" depart="340.80" from="19355160#3" to="-19353816#2" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="561" depart="342.66" from="19352037" to="19350124" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="183" depart="349.67" from="-19358499#1" to="-19358136#3" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
@@ -103,10 +102,10 @@
     <trip id="207" depart="357.13" from="-511366397" to="-19359071#0" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="50" depart="363.29" from="19353318" to="-576756561#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="87" depart="363.53" from="19358499#1" to="661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
-    <trip id="393" depart="368.31" from="19352058" to="329995330#6" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="393" depart="368.31" from="19352058" to="-329995330#6" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="83" depart="368.78" from="19358499#0" to="-19356025#1" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="7" depart="381.92" from="19353318" to="19355160#3" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
-    <trip id="350" depart="382.07" from="-19358499#1" to="-19356627" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="350" depart="382.07" from="-19358499#1" to="19354183#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="65" depart="386.17" from="-19358499#1" to="-19355160#3" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="667" depart="389.08" from="19358587#0" to="-19353551#10" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="648" depart="395.17" from="19358587#0" to="19354772" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
@@ -199,7 +198,7 @@
     <trip id="276" depart="838.12" from="-19358499#1" to="19352131#9" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="471" depart="840.96" from="-661061477#0" to="-19359432" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="24" depart="842.52" from="-511366397" to="-661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
-    <trip id="376" depart="845.46" from="511366397" to="-19361224#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="376" depart="845.46" from="511366397" to="-19361224#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="220" depart="846.12" from="19355636" to="19357114#3" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="630" depart="846.61" from="19360850#0" to="19353551#4" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="374" depart="859.97" from="19353318" to="19358441" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
@@ -239,12 +238,12 @@
     <trip id="145" depart="1010.30" from="-19358499#0" to="596607447#3" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="499" depart="1010.94" from="661061477#0" to="-19354074" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="140" depart="1025.76" from="19355636" to="19361005#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="379" depart="1032.88" from="511366397" to="19361224#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="379" depart="1032.88" from="511366397" to="-19361224#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="54" depart="1034.54" from="19358499#0" to="19357539#1" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="510" depart="1038.14" from="19355160#3" to="-440717074#4" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="39" depart="1038.84" from="19353318" to="661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="604" depart="1050.82" from="-19353092#5" to="19353551#8" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
-    <trip id="357" depart="1055.06" from="19352058" to="-19354198" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="357" depart="1055.06" from="19352058" to="19354198" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="507" depart="1055.55" from="19359987" to="19353264#0" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="169" depart="1066.39" from="19355636" to="-19353961#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="641" depart="1072.28" from="-19352868" to="-329995277#1" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
@@ -256,11 +255,11 @@
     <trip id="204" depart="1088.28" from="19358499#1" to="19353264#0" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="601" depart="1088.84" from="19353092#6" to="19353551#10" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="466" depart="1094.10" from="19356025#1" to="-19353048#0" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="319" depart="1108.54" from="-19358499#1" to="19353293#2" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="319" depart="1108.54" from="-19358499#1" to="19353293#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="443" depart="1114.21" from="-576756561#0" to="19351857#6" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="28" depart="1118.06" from="19358499#1" to="-661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="524" depart="1121.67" from="-19359987" to="19357114#3" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="373" depart="1122.69" from="-19358499#0" to="19358407#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="373" depart="1122.69" from="-19358499#0" to="19358407#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="55" depart="1130.77" from="-511366397" to="576756561#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="473" depart="1132.57" from="19355160#0" to="19351857#9" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="298" depart="1144.44" from="-511366397" to="19353264#0" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -279,7 +278,7 @@
     <trip id="651" depart="1223.75" from="19358927#0" to="329995277#2" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="506" depart="1225.03" from="576756561#0" to="19357057#5" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="214" depart="1226.79" from="-19355636" to="-19357991#1" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="317" depart="1229.91" from="19358499#0" to="19358407#4" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="317" depart="1229.91" from="19358499#0" to="19358407#3" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="109" depart="1229.93" from="-19353318" to="-19358151" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="162" depart="1238.62" from="-511366397" to="-19352285#9" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="85" depart="1247.62" from="-19353318" to="19359987" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
@@ -298,7 +297,7 @@
     <trip id="564" depart="1320.37" from="-661061477#0" to="19357057#5" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="75" depart="1320.54" from="-19353318" to="661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="460" depart="1332.86" from="-19356025#1" to="19352285#12" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="330" depart="1335.68" from="19352058" to="-19360785" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="330" depart="1335.68" from="19352058" to="-19352126#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="78" depart="1336.43" from="-19358499#0" to="661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="219" depart="1336.87" from="19355636" to="19352901#1" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="490" depart="1349.58" from="-19355160#3" to="-19354956#2" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
@@ -316,14 +315,14 @@
     <trip id="620" depart="1423.01" from="-19352285#10" to="-19353551#8" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="249" depart="1427.32" from="19358499#1" to="19357968" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="585" depart="1438.27" from="-576756561#0" to="19353264#0" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="327" depart="1454.20" from="19352058" to="-19352374#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="327" depart="1454.20" from="19352058" to="19351859#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="554" depart="1455.25" from="576756561#0" to="19352131#10" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="433" depart="1465.76" from="-19355160#0" to="19352285#14" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="136" depart="1469.82" from="-19352058" to="-19354956#9" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="359" depart="1473.07" from="-511366397" to="-329995330#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
-    <trip id="335" depart="1476.93" from="-19353318" to="-19352374#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="335" depart="1476.93" from="-19353318" to="19351859#3" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="477" depart="1479.68" from="-661061477#0" to="-378219319" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="377" depart="1480.20" from="-19353318" to="19353293#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="377" depart="1480.20" from="-19353318" to="19359858" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="520" depart="1499.89" from="19357539#1" to="-19354328" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="610" depart="1503.46" from="-19354572#2" to="19354792#0" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="598" depart="1509.49" from="19357539#1" to="-19352901#1" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -338,7 +337,7 @@
     <trip id="518" depart="1555.06" from="19355160#0" to="19352131#9" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="190" depart="1578.35" from="-19358499#1" to="-19348921" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="8" depart="1580.77" from="-19358499#0" to="-19355160#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
-    <trip id="344" depart="1583.90" from="19358499#0" to="-329995314" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="344" depart="1583.90" from="19358499#0" to="-19357839" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="384" depart="1584.35" from="19358499#0" to="-19359303" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="163" depart="1593.62" from="-19355636" to="378219319" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="594" depart="1595.76" from="-576756561#0" to="-19357991#1" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -368,13 +367,13 @@
     <trip id="297" depart="1734.61" from="19353318" to="-19353264#0" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="289" depart="1743.04" from="511366397" to="-19351910#1" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="187" depart="1758.52" from="511366397" to="19353092#6" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="304" depart="1762.21" from="511366397" to="-19352256#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="304" depart="1762.21" from="511366397" to="-19355399#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="44" depart="1762.81" from="19358499#1" to="-19359987" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="32" depart="1763.21" from="-19353318" to="-661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="535" depart="1773.92" from="-19355160#0" to="19357968" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="230" depart="1775.13" from="-19358499#0" to="-19357057#5" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="144" depart="1780.20" from="511366397" to="19361189#1" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="338" depart="1782.15" from="19353318" to="19355585#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="338" depart="1782.15" from="19353318" to="-19355585#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="448" depart="1806.06" from="19356025#1" to="19353810#2" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="258" depart="1809.77" from="19358499#1" to="19354933" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="201" depart="1810.52" from="-511366397" to="-19356224#2" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -384,7 +383,7 @@
     <trip id="216" depart="1820.63" from="-511366397" to="-19357114#2" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="48" depart="1822.07" from="-19353318" to="-19355160#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="633" depart="1822.22" from="19353810#2" to="329995277#1" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
-    <trip id="390" depart="1827.45" from="19355636" to="-19351712" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="390" depart="1827.45" from="19355636" to="19358407#4" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="315" depart="1835.10" from="19358499#0" to="19359239#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="355" depart="1836.13" from="-19358499#0" to="19352449#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="454" depart="1840.44" from="19356025#1" to="-19353961#0" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
@@ -402,7 +401,7 @@
     <trip id="124" depart="1932.75" from="19355636" to="-19352879#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="64" depart="1935.92" from="19352058" to="19357539#1" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="25" depart="1943.63" from="19352058" to="19355160#3" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
-    <trip id="398" depart="1944.09" from="19352058" to="19356054" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="398" depart="1944.09" from="19352058" to="-329995330#9" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="608" depart="1947.37" from="-19351857#5" to="-329995277#2" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="119" depart="1950.91" from="19358499#1" to="19352285#8" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="281" depart="1954.95" from="-19358499#1" to="19357114#2" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -420,7 +419,7 @@
     <trip id="617" depart="2038.72" from="19353810#3" to="-19353686#6" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="13" depart="2039.96" from="-19358499#0" to="19352037" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="573" depart="2048.98" from="661061477#0" to="-19356224#2" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="348" depart="2079.26" from="19353318" to="19358407#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="348" depart="2079.26" from="19353318" to="-19361476" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="401" depart="2085.12" from="19352037" to="19360089#0" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="82" depart="2085.47" from="-511366397" to="661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="287" depart="2090.70" from="19355636" to="19354933" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -458,7 +457,7 @@
     <trip id="303" depart="2253.48" from="511366397" to="19360785" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="665" depart="2254.44" from="19361005#0" to="19353551#3" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="38" depart="2264.40" from="-19353318" to="-576756561#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
-    <trip id="351" depart="2267.71" from="-19353318" to="19352374#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="351" depart="2267.71" from="-19353318" to="-19352374#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="486" depart="2270.23" from="19355160#0" to="19353048#0" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="480" depart="2275.68" from="19355160#3" to="19351857#2" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="37" depart="2276.89" from="19358499#1" to="19355160#3" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
@@ -466,7 +465,7 @@
     <trip id="36" depart="2279.74" from="19353318" to="661061477#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="360" depart="2285.33" from="19353318" to="19359495#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="179" depart="2295.46" from="19355636" to="19351857#4" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="366" depart="2298.14" from="511366397" to="19352256#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="366" depart="2298.14" from="511366397" to="19359495#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="10" depart="2300.46" from="19358499#1" to="19357539#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="175" depart="2306.92" from="19355636" to="19356535#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="159" depart="2311.62" from="-19355636" to="-19360172#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
@@ -482,10 +481,10 @@
     <trip id="381" depart="2386.99" from="19358499#1" to="-19356054" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="692" depart="2391.92" from="19351857#2" to="-19353551#9" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="174" depart="2394.16" from="-511366397" to="19353810#1" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="395" depart="2402.41" from="19352058" to="19352256#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="395" depart="2402.41" from="19352058" to="19359495#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="47" depart="2402.94" from="-511366397" to="-19355160#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="450" depart="2408.39" from="-19355160#0" to="-19353961#0" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="349" depart="2414.93" from="-19355636" to="-19361224#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="349" depart="2414.93" from="-19355636" to="-19361224#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="110" depart="2416.61" from="19355636" to="-19352285#6" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="423" depart="2417.87" from="19355160#3" to="19352285#11" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="275" depart="2418.54" from="511366397" to="-19353264#5" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
@@ -540,7 +539,7 @@
     <trip id="419" depart="2634.01" from="-19355160#0" to="-19351857#2" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="251" depart="2634.26" from="19352058" to="-19353264#0" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="211" depart="2634.72" from="19352058" to="19357057#3" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="321" depart="2637.51" from="-19353318" to="19361476" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="321" depart="2637.51" from="-19353318" to="-19354198" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="185" depart="2643.76" from="-19353318" to="19358136#1" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="500" depart="2644.94" from="19355160#0" to="19358435" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="388" depart="2652.03" from="-19355636" to="-19352374#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
@@ -580,9 +579,9 @@
     <trip id="497" depart="2840.90" from="19356025#1" to="19352285#13" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="556" depart="2844.03" from="19355160#0" to="-19356432" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="156" depart="2846.98" from="-19355636" to="-19354572#2" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="310" depart="2850.68" from="19352058" to="19351859#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="310" depart="2850.68" from="19352058" to="19355854#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="71" depart="2853.62" from="19353318" to="19356025#1" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
-    <trip id="392" depart="2854.70" from="19358499#1" to="19355670" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="392" depart="2854.70" from="19358499#1" to="-19359199" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="273" depart="2859.12" from="-19352058" to="-19356432" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="81" depart="2863.82" from="19352058" to="576756561#0" fromTaz="americas_cup" toTaz="bellevue" departLane="free" departSpeed="max"/>
     <trip id="674" depart="2868.29" from="19353961#0" to="278433716#4" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
@@ -654,12 +653,12 @@
     <trip id="194" depart="3234.64" from="19358499#1" to="19358927#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="548" depart="3235.54" from="-19355160#0" to="19352901#1" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="279" depart="3235.57" from="-19355636" to="19350124" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="396" depart="3241.97" from="19353318" to="-19355854#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="396" depart="3241.97" from="19353318" to="19355854#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="632" depart="3242.68" from="19352879#1" to="610168517" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="410" depart="3243.40" from="661061477#0" to="-19353591#0" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="544" depart="3245.45" from="19357539#0" to="-19351910#1" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="306" depart="3253.84" from="19352058" to="19351859#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
-    <trip id="386" depart="3259.43" from="19358499#1" to="-19361224#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="306" depart="3253.84" from="19352058" to="19358441" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="386" depart="3259.43" from="19358499#1" to="19361224#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="365" depart="3261.34" from="-19355636" to="-19356054" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="250" depart="3262.76" from="-19358499#1" to="-19353264#3" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="103" depart="3263.00" from="-19358499#0" to="19353810#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
@@ -667,7 +666,7 @@
     <trip id="354" depart="3266.24" from="19355636" to="329995330#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="646" depart="3268.81" from="-19354956#12" to="19358038#0" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="407" depart="3274.37" from="19359987" to="-19352868" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
-    <trip id="346" depart="3274.93" from="-19353318" to="19359495#1" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="346" depart="3274.93" from="-19353318" to="19359495#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="138" depart="3282.68" from="-19355636" to="19354956#2" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="196" depart="3294.66" from="-19352058" to="-19354956#2" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="132" depart="3297.18" from="-511366397" to="19353711" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
@@ -676,7 +675,7 @@
     <trip id="167" depart="3316.85" from="-19358499#0" to="596607453" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="595" depart="3344.69" from="661061477#0" to="19352131#10" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="662" depart="3348.82" from="19351857#12" to="-661061473#0" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
-    <trip id="331" depart="3351.02" from="-511366397" to="-19352374#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="331" depart="3351.02" from="-511366397" to="19351859#0" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="675" depart="3354.72" from="19351857#3" to="19357704#1" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
     <trip id="525" depart="3355.26" from="-19352037" to="19361135#4" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="631" depart="3359.03" from="19354572#2" to="-19356382#32" fromTaz="bliss" toTaz="broadway_business" departLane="free" departSpeed="max"/>
@@ -701,7 +700,7 @@
     <trip id="342" depart="3468.15" from="511366397" to="19351859#2" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="411" depart="3476.09" from="19355160#3" to="-19353048#0" fromTaz="bellevue" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="589" depart="3478.04" from="-19359987" to="-19353264#5" fromTaz="bellevue" toTaz="bowery" departLane="free" departSpeed="max"/>
-    <trip id="352" depart="3490.81" from="-19358499#0" to="329995330#8" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
+    <trip id="352" depart="3490.81" from="-19358499#0" to="-329995330#8" fromTaz="americas_cup" toTaz="warner" departLane="free" departSpeed="max"/>
     <trip id="232" depart="3498.49" from="19358499#1" to="-19352901#1" fromTaz="americas_cup" toTaz="bowery" departLane="free" departSpeed="max"/>
     <trip id="100" depart="3514.47" from="-19358499#1" to="-19354576#2" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
     <trip id="114" depart="3523.70" from="19353318" to="-19353092#0" fromTaz="americas_cup" toTaz="bliss" departLane="free" departSpeed="max"/>
