@@ -20,7 +20,12 @@ As much as possible should be included by editing either the OpenStreetMap datab
 
 ### Tracking network changes
 
-When editing using NETEDIT, save the network as a new set of plain xml files.  **Work is in progress to generate patch files using xmldiff.**
+Network patch files are generated using the `netdiff.py` tool included with SUMO.  Tool documentation is [here](https://sumo.dlr.de/docs/Tools/Net.html#netdiffpy).  To rebuild the model using new baseline data:
+```
+netconvert --sumo-net-file baseline.net.xml -n patches\aquidneck_island_diff.nod.xml -e patches\aquidneck_island_diff.edg.xml -x patches\aquidneck_island_diff.con.xml -i patches\aquidneck_island_diff.tll.xml -o aquidneck_island.net.xml
+```
+
+Run the `netdiff.py` tool to update the patch files in the `patches/` directory prior to merging any network changes into the `master` branch.
 
 
 ## Running a Simulation
