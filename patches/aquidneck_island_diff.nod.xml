@@ -2,27 +2,50 @@
 <nodes version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
     <!-- Deleted Elements -->
     <delete id="201065302"/>
+    <delete id="201119381"/>
+    <delete id="201119483"/>
     <delete id="201120882"/>
     <delete id="201139092"/>
     <delete id="201141935"/>
+    <delete id="201141968"/>
     <delete id="201149895"/>
     <delete id="201149993"/>
     <delete id="201150138"/>
+    <delete id="201150316"/>
     <delete id="201151614"/>
+    <delete id="201167327"/>
+    <delete id="201167333"/>
     <delete id="201176627"/>
+    <delete id="201177314"/>
+    <delete id="201179538"/>
     <delete id="201191092"/>
+    <delete id="201195383"/>
+    <delete id="201195392"/>
+    <delete id="3534016481"/>
+    <delete id="3534016484"/>
+    <delete id="3534017325"/>
+    <delete id="3534017328"/>
     <delete id="3754935836"/>
     <delete id="5002285096"/>
+    <delete id="5601818412"/>
     <delete id="5785663195"/>
     <delete id="5785663196"/>
+    <delete id="6247337134"/>
     <delete id="6247337294"/>
     <delete id="850365418"/>
     <!-- Created Elements -->
+    <node id="cluster_201119381_201119483" tl="gneJ44" type="traffic_light" x="8981.08" y="3688.98"/>
     <node id="cluster_201139092_3754935836" type="priority_stop" x="8958.56" y="3923.34"/>
     <node id="cluster_201141935_201191092" type="priority" x="9089.42" y="5213.73"/>
+    <node id="cluster_201141968_201150316" type="allway_stop" x="8846.24" y="5393.56"/>
     <node id="cluster_201149895_6247337294" controlledInner="661061483#2 661061483#3 71471500#0 71471548#3" tl="850366899" type="traffic_light" x="8297.02" y="4379.71"/>
     <node id="cluster_201149993_850365418" tl="gneJ24" type="traffic_light" x="8439.95" y="3833.72"/>
     <node id="cluster_201151614_201176627" type="priority_stop" x="9090.20" y="992.24"/>
+    <node id="cluster_201167327_201167333_201177314" type="priority_stop" x="8423.04" y="4815.98"/>
+    <node id="cluster_201179538_5601818412" type="allway_stop" x="8739.74" y="7280.39"/>
+    <node id="cluster_201195383_201195392" type="right_before_left" x="9212.70" y="5872.26"/>
+    <node id="cluster_3534016481_3534016484" type="allway_stop" x="8796.42" y="7048.29"/>
+    <node id="cluster_3534017325_3534017328" type="allway_stop" x="8769.11" y="7157.85"/>
     <node id="cluster_gneJ14_gneJ15_gneJ16" type="right_before_left" x="8279.90" y="4454.38"/>
     <node id="cluster_gneJ43_gneJ44" type="priority" x="8978.63" y="3588.51"/>
     <node id="gneJ0" type="priority" x="8760.60" y="4621.95"/>
@@ -33,7 +56,7 @@
     <node id="gneJ13" type="priority" x="8269.94" y="4543.40"/>
     <node id="gneJ18" type="priority" x="8317.46" y="4489.49"/>
     <node id="gneJ22" type="priority" x="8329.37" y="4197.66"/>
-    <node id="gneJ23" type="priority" x="8436.02" y="4034.14"/>
+    <node id="gneJ23" type="priority" x="8438.07" y="3990.62"/>
     <node id="gneJ25" type="priority" x="8527.97" y="3786.71"/>
     <node id="gneJ26" type="priority" x="8941.44" y="3692.00"/>
     <node id="gneJ27" type="priority" x="8729.41" y="3744.03"/>
@@ -48,22 +71,52 @@
     <node id="gneJ39" type="priority" x="9926.90" y="3871.78"/>
     <node id="gneJ40" type="priority" x="10090.63" y="4007.89"/>
     <node id="gneJ41" type="priority" x="10481.93" y="4247.51"/>
+    <node id="gneJ42" type="priority" x="8614.20" y="4415.16"/>
+    <node id="gneJ43" type="priority" x="8435.21" y="4448.95"/>
     <node id="gneJ9" type="priority" x="8619.76" y="3572.67"/>
     <!-- Changed Elements -->
+    <node id="1958765448" type="priority_stop"/>
     <node id="201059342" type="priority_stop"/>
     <node id="201060289" type="priority_stop"/>
     <node id="201062403" type="priority_stop"/>
     <node id="201065291" controlledInner="19347884#2" tl="201065291" type="traffic_light" x="8410.83" y="4128.06"/>
     <node id="201065298" controlledInner="19347884#2" tl="201065291" type="traffic_light"/>
     <node id="201066534" controlledInner="661061483#2 661061483#3 71471500#0 71471548#3" tl="850366899" type="traffic_light"/>
+    <node id="201068181" type="priority_stop"/>
+    <node id="201073607" type="priority_stop"/>
+    <node id="201073895" type="allway_stop"/>
+    <node id="201073899" type="priority_stop"/>
     <node id="201075725" type="priority_stop"/>
+    <node id="201076115" type="priority_stop"/>
+    <node id="201086933" type="priority_stop"/>
+    <node id="201087287" type="priority_stop"/>
+    <node id="201091017" type="priority_stop"/>
     <node id="201092940" type="priority_stop"/>
     <node id="201096371" type="priority_stop"/>
+    <node id="201097750" type="priority_stop"/>
     <node id="201108097" type="allway_stop"/>
+    <node id="201111298" type="priority_stop"/>
+    <node id="201111863" type="priority_stop"/>
     <node id="201114833" type="priority_stop"/>
+    <node id="201114853" type="priority_stop"/>
     <node id="201115467" type="priority_stop"/>
+    <node id="201115499" type="priority_stop"/>
+    <node id="201115506" type="allway_stop"/>
+    <node id="201115508" type="priority_stop"/>
+    <node id="201115511" type="priority_stop"/>
+    <node id="201115514" type="allway_stop"/>
+    <node id="201115520" type="allway_stop"/>
     <node id="201115802" type="priority_stop"/>
     <node id="201115822" type="priority_stop"/>
+    <node id="201116929" type="priority_stop"/>
+    <node id="201117997" type="priority_stop"/>
+    <node id="201118176" type="priority_stop"/>
+    <node id="201118191" type="allway_stop"/>
+    <node id="201118203" type="priority_stop"/>
+    <node id="201118217" type="priority_stop"/>
+    <node id="201118549" type="priority_stop"/>
+    <node id="201119109" type="allway_stop"/>
+    <node id="201119229" type="priority_stop"/>
     <node id="201119257" type="dead_end"/>
     <node id="201119337" type="priority_stop"/>
     <node id="201119341" type="priority_stop"/>
@@ -75,7 +128,6 @@
     <node id="201119440" controlledInner="661061486#0 71466643#0 71466643#1 71467532#0"/>
     <node id="201119467" controlledInner="329995270#0" tl="201119398" type="traffic_light"/>
     <node id="201119470" type="priority_stop"/>
-    <node id="201119483" type="traffic_light_right_on_red"/>
     <node id="201119485" type="priority_stop"/>
     <node id="201119489" type="priority_stop"/>
     <node id="201119529" type="priority_stop"/>
@@ -84,6 +136,9 @@
     <node id="201120395" type="priority_stop"/>
     <node id="201120696" type="priority_stop"/>
     <node id="201120706" type="priority_stop"/>
+    <node id="201120708" type="priority_stop"/>
+    <node id="201120710" type="allway_stop"/>
+    <node id="201120842" type="priority_stop"/>
     <node id="201120877" type="priority_stop"/>
     <node id="201120881" type="priority_stop"/>
     <node id="201120886" type="priority_stop"/>
@@ -111,24 +166,98 @@
     <node id="201121058" type="priority_stop"/>
     <node id="201121061" type="priority_stop"/>
     <node id="201121399" type="priority_stop"/>
+    <node id="201121498" type="priority_stop"/>
+    <node id="201122391" type="priority_stop"/>
     <node id="201124199" type="priority_stop"/>
+    <node id="201124933" type="priority_stop"/>
+    <node id="201124936" type="priority_stop"/>
+    <node id="201125252" type="priority_stop"/>
+    <node id="201125357" type="priority_stop"/>
+    <node id="201125364" type="priority_stop"/>
+    <node id="201125376" type="priority"/>
+    <node id="201125383" type="allway_stop"/>
+    <node id="201125395" type="priority_stop"/>
+    <node id="201125405" type="priority_stop"/>
+    <node id="201125409" type="allway_stop"/>
+    <node id="201125415" type="priority_stop"/>
+    <node id="201125419" type="priority_stop"/>
+    <node id="201125427" type="priority_stop"/>
+    <node id="201125431" type="priority_stop"/>
+    <node id="201125435" type="allway_stop"/>
+    <node id="201125438" type="priority_stop"/>
+    <node id="201125443" type="priority_stop"/>
+    <node id="201125449" type="allway_stop"/>
+    <node id="201125453" type="priority_stop"/>
+    <node id="201125460" type="priority_stop"/>
+    <node id="201125464" type="priority_stop"/>
+    <node id="201125468" type="priority_stop"/>
+    <node id="201126321" type="priority"/>
     <node id="201128293" type="priority_stop"/>
     <node id="201128592" type="priority_stop"/>
-    <node id="201131737" type="priority_stop"/>
-    <node id="201131739" type="priority_stop"/>
-    <node id="201131741" type="priority_stop"/>
+    <node id="201128623" type="priority_stop"/>
+    <node id="201128639" type="priority_stop"/>
+    <node id="201128642" type="priority_stop"/>
+    <node id="201128674" type="priority"/>
+    <node id="201128677" type="allway_stop"/>
+    <node id="201128686" type="priority_stop"/>
+    <node id="201128695" type="allway_stop"/>
+    <node id="201129223" type="priority_stop"/>
+    <node id="201129619" type="priority_stop"/>
+    <node id="201129628" type="allway_stop"/>
+    <node id="201129676" type="priority_stop"/>
+    <node id="201129699" type="priority_stop"/>
+    <node id="201129779" type="priority_stop"/>
+    <node id="201130251" type="priority_stop"/>
+    <node id="201131737" type="allway_stop"/>
+    <node id="201131739" type="allway_stop"/>
+    <node id="201131741" type="allway_stop"/>
+    <node id="201132369" type="priority_stop"/>
+    <node id="201132372" type="priority_stop"/>
+    <node id="201132375" type="priority_stop"/>
+    <node id="201132460" type="priority_stop"/>
+    <node id="201133013" type="priority_stop"/>
+    <node id="201133107" type="priority_stop"/>
+    <node id="201133116" type="priority_stop"/>
+    <node id="201133788" type="priority_stop"/>
+    <node id="201135894" type="priority_stop"/>
+    <node id="201136283" type="allway_stop"/>
     <node id="201136372" type="priority_stop"/>
     <node id="201136375" type="priority_stop"/>
-    <node id="201136379" type="priority_stop"/>
+    <node id="201136379" type="allway_stop"/>
     <node id="201136383" type="priority_stop"/>
     <node id="201136392" type="priority_stop"/>
     <node id="201136397" type="priority_stop"/>
-    <node id="201136408" type="priority_stop"/>
+    <node id="201136408" type="allway_stop"/>
+    <node id="201136417" type="priority_stop"/>
     <node id="201136421" type="priority_stop"/>
-    <node id="201136442" type="priority_stop"/>
+    <node id="201136432" type="priority_stop"/>
+    <node id="201136442" type="allway_stop"/>
+    <node id="201138261" type="priority_stop"/>
     <node id="201138548" type="priority_stop"/>
-    <node id="201143503" type="priority_stop"/>
+    <node id="201138557" type="priority_stop"/>
+    <node id="201138576" type="priority_stop"/>
+    <node id="201138581" type="priority_stop"/>
+    <node id="201138595" type="allway_stop"/>
+    <node id="201138599" type="priority_stop"/>
+    <node id="201138615" type="allway_stop"/>
+    <node id="201138618" type="priority_stop"/>
+    <node id="201141942" type="allway_stop"/>
+    <node id="201142335" type="priority_stop"/>
+    <node id="201142491" type="allway_stop"/>
+    <node id="201142525" type="priority_stop"/>
+    <node id="201142529" type="priority_stop"/>
+    <node id="201142534" type="priority_stop"/>
+    <node id="201142542" type="allway_stop"/>
+    <node id="201143503" type="allway_stop"/>
     <node id="201143727" type="priority_stop"/>
+    <node id="201145102" type="priority_stop"/>
+    <node id="201146208" type="priority_stop"/>
+    <node id="201146251" type="priority_stop"/>
+    <node id="201146315" type="priority_stop"/>
+    <node id="201147702" type="priority_stop"/>
+    <node id="201147704" type="priority_stop"/>
+    <node id="201149343" type="priority_stop"/>
+    <node id="201149351" type="allway_stop"/>
     <node id="201149369" type="priority_stop"/>
     <node id="201149374" type="priority_stop"/>
     <node id="201149958" type="priority"/>
@@ -136,32 +265,99 @@
     <node id="201150054" controlledInner="661061483#2 661061483#3 71471500#0 71471548#3" tl="850366899" type="traffic_light"/>
     <node id="201150163" type="priority_stop"/>
     <node id="201150167" type="priority_stop"/>
+    <node id="201150293" type="priority_stop"/>
+    <node id="201150299" type="priority_stop"/>
+    <node id="201150306" type="priority_stop"/>
     <node id="201151425" controlledInner="-19356382#19 19356382#19" tl="201151425" type="traffic_light"/>
+    <node id="201152718" type="priority_stop"/>
+    <node id="201152740" type="priority_stop"/>
+    <node id="201153456" type="priority_stop"/>
+    <node id="201153500" type="priority_stop"/>
     <node id="201153737" x="8836.96" y="4726.00"/>
+    <node id="201154457" type="priority_stop"/>
     <node id="201155428" type="priority_stop"/>
+    <node id="201155821" type="priority_stop"/>
+    <node id="201155856" type="priority_stop"/>
     <node id="201158441" type="priority_stop"/>
+    <node id="201158505" type="priority_stop"/>
+    <node id="201158540" type="allway_stop"/>
+    <node id="201159147" type="priority_stop"/>
     <node id="201159186" type="priority_stop"/>
+    <node id="201159263" type="allway_stop"/>
+    <node id="201159271" type="allway_stop"/>
+    <node id="201159276" type="priority_stop"/>
+    <node id="201159280" type="priority_stop"/>
     <node id="201159678" type="priority_stop"/>
     <node id="201159895" type="priority_stop"/>
-    <node id="201161142" type="priority_stop"/>
+    <node id="201159899" type="allway_stop"/>
+    <node id="201160182" type="priority_stop"/>
+    <node id="201160189" type="priority_stop"/>
+    <node id="201160217" type="priority_stop"/>
+    <node id="201160232" type="allway_stop"/>
+    <node id="201160306" type="priority_stop"/>
+    <node id="201161138" type="priority_stop"/>
+    <node id="201161142" type="allway_stop"/>
     <node id="201161146" type="priority_stop"/>
-    <node id="201161151" type="priority_stop"/>
+    <node id="201161151" type="allway_stop"/>
     <node id="201161155" type="priority_stop"/>
     <node id="201161163" type="priority_stop"/>
     <node id="201161167" type="priority_stop"/>
-    <node id="201161173" type="priority_stop"/>
+    <node id="201161173" type="allway_stop"/>
     <node id="201161175" type="priority_stop"/>
-    <node id="201161179" type="priority_stop"/>
+    <node id="201161179" type="allway_stop"/>
     <node id="201161218" type="priority_stop"/>
+    <node id="201164082" type="priority_stop"/>
+    <node id="201164198" type="priority_stop"/>
+    <node id="201164201" type="priority_stop"/>
+    <node id="201165558" type="priority_stop"/>
+    <node id="201165566" type="allway_stop"/>
+    <node id="201165570" type="priority_stop"/>
+    <node id="201165575" type="priority_stop"/>
+    <node id="201165580" type="allway_stop"/>
+    <node id="201165583" type="priority_stop"/>
+    <node id="201165586" type="priority_stop"/>
     <node id="201165599" type="priority_stop"/>
+    <node id="201166262" type="allway_stop"/>
+    <node id="201166267" type="allway_stop"/>
     <node id="201166674" type="priority_stop"/>
+    <node id="201166683" type="allway_stop"/>
     <node id="201167053" type="priority_stop"/>
+    <node id="201167060" type="priority_stop"/>
+    <node id="201167541" type="priority_stop"/>
     <node id="201168298" type="priority_stop"/>
+    <node id="201168675" type="priority_stop"/>
+    <node id="201169508" type="allway_stop"/>
+    <node id="201170174" type="priority_stop"/>
+    <node id="201170926" type="priority_stop"/>
+    <node id="201171738" type="allway_stop"/>
+    <node id="201171742" type="priority_stop"/>
     <node id="201174943" type="priority_stop"/>
+    <node id="201175155" type="allway_stop"/>
+    <node id="201175163" type="allway_stop"/>
+    <node id="201175168" type="allway_stop"/>
+    <node id="201175174" type="priority_stop"/>
+    <node id="201175561" type="priority_stop"/>
+    <node id="201175564" type="priority_stop"/>
+    <node id="201176391" type="priority_stop"/>
     <node id="201176864" type="priority_stop"/>
     <node id="201177328" type="priority_stop"/>
+    <node id="201178512" type="priority_stop"/>
+    <node id="201180630" type="priority_stop"/>
     <node id="201180654" type="priority_stop"/>
+    <node id="201181611" type="allway_stop"/>
+    <node id="201181614" type="allway_stop"/>
+    <node id="201182387" type="priority_stop"/>
+    <node id="201182445" type="priority_stop"/>
+    <node id="201182457" type="priority_stop"/>
     <node id="201183087" type="priority_stop"/>
+    <node id="201183482" type="priority_stop"/>
+    <node id="201183630" type="priority_stop"/>
+    <node id="201184217" type="priority_stop"/>
+    <node id="201184623" type="priority_stop"/>
+    <node id="201185060" type="priority_stop"/>
+    <node id="201185126" type="priority_stop"/>
+    <node id="201189153" type="priority_stop"/>
+    <node id="201189178" type="priority_stop"/>
     <node id="201189228" type="priority_stop"/>
     <node id="201190792" type="priority_stop"/>
     <node id="201191022" type="priority_stop"/>
@@ -182,36 +378,90 @@
     <node id="201191158" type="priority_stop"/>
     <node id="201191166" type="priority_stop"/>
     <node id="201191172" type="priority_stop"/>
+    <node id="201191441" type="priority_stop"/>
     <node id="201191956" type="priority_stop"/>
     <node id="201192137" type="priority_stop"/>
+    <node id="201192430" type="priority_stop"/>
+    <node id="201192498" type="priority_stop"/>
+    <node id="201192811" type="allway_stop"/>
+    <node id="201192817" type="allway_stop"/>
+    <node id="201192824" type="allway_stop"/>
+    <node id="201192940" type="priority_stop"/>
     <node id="201192949" type="priority_stop"/>
+    <node id="201194002" type="priority_stop"/>
     <node id="201196411" type="priority_stop"/>
     <node id="201200647" type="priority_stop"/>
+    <node id="201200770" type="priority_stop"/>
+    <node id="201200966" type="priority_stop"/>
+    <node id="201201158" type="priority_stop"/>
     <node id="201202361" type="priority_stop"/>
     <node id="201204796" type="priority_stop"/>
+    <node id="201205518" type="priority_stop"/>
+    <node id="201206171" type="priority_stop"/>
+    <node id="201206405" type="priority_stop"/>
+    <node id="201207077" type="priority_stop"/>
     <node id="201207563" type="priority_stop"/>
+    <node id="201207590" type="priority_stop"/>
     <node id="201207664" type="priority_stop"/>
+    <node id="201208509" type="priority_stop"/>
+    <node id="201208514" type="priority_stop"/>
+    <node id="201208523" type="priority_stop"/>
+    <node id="201208541" type="allway_stop"/>
+    <node id="201208551" type="allway_stop"/>
+    <node id="201208568" type="allway_stop"/>
+    <node id="201209762" type="priority_stop"/>
+    <node id="201212117" type="priority_stop"/>
     <node id="201212703" type="priority_stop"/>
+    <node id="201212709" type="priority_stop"/>
     <node id="201217265" type="priority_stop"/>
-    <node id="201225918" type="priority_stop"/>
+    <node id="201218034" type="priority_stop"/>
+    <node id="201221092" type="allway_stop"/>
+    <node id="201221129" type="priority_stop"/>
+    <node id="201221130" type="priority_stop"/>
+    <node id="201221159" type="allway_stop"/>
+    <node id="201221291" type="priority_stop"/>
+    <node id="201221387" type="priority_stop"/>
+    <node id="201225918" type="allway_stop"/>
     <node id="201225952" type="priority_stop"/>
-    <node id="201225965" type="priority_stop"/>
+    <node id="201225965" type="allway_stop"/>
     <node id="201225968" type="priority_stop"/>
-    <node id="201226040" type="priority_stop"/>
+    <node id="201226040" type="allway_stop"/>
+    <node id="201227089" type="priority_stop"/>
+    <node id="201227128" type="priority_stop"/>
     <node id="201228179" type="priority_stop"/>
+    <node id="201236220" type="priority_stop"/>
+    <node id="201236610" type="priority_stop"/>
     <node id="201237106" type="priority_stop"/>
+    <node id="201239650" type="priority_stop"/>
+    <node id="201240651" type="priority_stop"/>
+    <node id="201241905" type="priority_stop"/>
+    <node id="201243844" type="priority_stop"/>
+    <node id="201243853" type="allway_stop"/>
     <node id="201247505" type="priority_stop"/>
+    <node id="201247549" type="priority_stop"/>
     <node id="201250262" type="priority_stop"/>
     <node id="201250629" type="priority_stop"/>
     <node id="201250643" type="priority_stop"/>
     <node id="201250665" type="priority_stop"/>
+    <node id="201251701" type="allway_stop"/>
     <node id="201253073" type="priority_stop"/>
+    <node id="201253809" type="priority_stop"/>
+    <node id="201254525" type="priority_stop"/>
+    <node id="201255053" type="priority_stop"/>
+    <node id="201259692" type="priority_stop"/>
+    <node id="201260309" type="priority_stop"/>
     <node id="2667703794" controlledInner="661061486#0 71466643#0 71466643#1 71467532#0"/>
+    <node id="3534016445" type="priority_stop"/>
+    <node id="3534017322" type="allway_stop"/>
+    <node id="3534017398" type="priority_stop"/>
     <node id="3637165383" x="8268.80" y="5411.39"/>
+    <node id="3642565497" type="priority_stop"/>
     <node id="5785663193" type="priority" x="8617.38" y="3767.38"/>
     <node id="5785663194" type="priority"/>
     <node id="5785663197" type="priority"/>
     <node id="5785663198" type="priority"/>
+    <node id="6247337315" type="priority_stop"/>
+    <node id="850365089" type="right_before_left"/>
     <node id="850365156" controlledInner="661061486#0 71466643#0 71466643#1 71467532#0"/>
     <node id="850366899" controlledInner="661061483#2 661061483#3 71471500#0 71471548#3" tl="850366899" type="traffic_light"/>
 </nodes>

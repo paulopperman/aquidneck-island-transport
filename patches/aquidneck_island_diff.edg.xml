@@ -1,22 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edges version="1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edgediff_file.xsd">
     <!-- Deleted Elements -->
+    <delete id="-19352256#0"/>
+    <delete id="-19352256#1"/>
+    <delete id="-19353747#4"/>
+    <delete id="-19354375"/>
+    <delete id="-19355479#0"/>
     <delete id="-19356382#21"/>
+    <delete id="-19356703#1"/>
     <delete id="-19357548"/>
+    <delete id="-19358272#0"/>
     <delete id="-19358587#0"/>
     <delete id="-19360222#5"/>
+    <delete id="-346959934#2"/>
+    <delete id="-346959936#3"/>
+    <delete id="-440717081#0"/>
     <delete id="-492477208#0"/>
     <delete id="-492477208#1"/>
     <delete id="-492477208#2"/>
     <delete id="-610966930#10"/>
+    <delete id="-661055467#6"/>
     <delete id="19347884#1"/>
+    <delete id="19350832"/>
+    <delete id="19352621#0"/>
+    <delete id="19353747#4"/>
+    <delete id="19354792#8"/>
     <delete id="19355437"/>
+    <delete id="19355479#0"/>
     <delete id="19356382#21"/>
+    <delete id="19356703#1"/>
+    <delete id="19357791"/>
+    <delete id="19358272#0"/>
     <delete id="19360222#5"/>
+    <delete id="346959934#2"/>
+    <delete id="346959936#3"/>
+    <delete id="440717081#0"/>
+    <delete id="440717119#0"/>
     <delete id="492477208#2"/>
     <delete id="610966930#10"/>
+    <delete id="616852537#0"/>
+    <delete id="661055467#6"/>
     <delete id="661061484#1"/>
     <delete id="661061484#3"/>
+    <delete id="667242646#2"/>
     <delete id="71469480#0"/>
     <delete id="71469987#5"/>
     <delete id="71472729#2"/>
@@ -31,6 +57,22 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19359517#2" from="201239650" numLanes="2" priority="4" shape="9244.93,4475.60 9228.60,4512.23 9144.61,4578.15" speed="11.18" spreadType="center" to="201125383" type="highway.residential">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359517#3" from="201236610" numLanes="2" priority="-1" speed="13.89" to="201239650">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-19359517#4" from="201068181" numLanes="2" priority="4" speed="13.89" to="201236610">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
+    <edge id="-19359517#5" from="201115499" numLanes="2" priority="2" speed="13.89" to="201068181">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+    </edge>
     <edge id="-440717074#0.74" from="cluster_gneJ43_gneJ44" numLanes="2" priority="10" shape="8978.63,3588.82 8978.85,3608.49" speed="11.18" to="gneJ30" type="highway.tertiary">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -39,6 +81,10 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-586093471" from="201136372" numLanes="2" priority="-1" speed="13.89" to="201136365">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
     </edge>
     <edge id="-610966930#4.59" allow="pedestrian" from="gneJ9" numLanes="1" priority="10" speed="11.18" to="201120990" type="highway.tertiary" width="2.00"/>
     <edge id="-65356877#0.260" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" from="gneJ10" numLanes="2" priority="11" speed="11.18" to="201128244" type="highway.secondary"/>
@@ -56,7 +102,12 @@
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19353732#0.207" from="gneJ23" numLanes="3" priority="12" shape="8436.02,4034.14 8434.42,4064.49 8434.33,4069.38" speed="11.18" spreadType="center" to="201100675" type="highway.primary">
+    <edge id="19347930.24" from="gneJ42" numLanes="3" priority="3" shape="8614.20,4415.16 8604.47,4422.97 8598.44,4427.41 8592.93,4430.60" speed="11.18" spreadType="center" to="6247337315" type="highway.residential">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19353732#0.207" from="gneJ23" numLanes="3" priority="12" shape="8438.07,3990.62 8434.42,4064.49 8434.33,4069.38" speed="11.18" spreadType="center" to="201100675" type="highway.primary">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -74,7 +125,7 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="570938686#3.60" from="gneJ31" numLanes="4" priority="12" shape="9068.17,3679.02 8981.48,3697.45" speed="11.18" spreadType="center" to="201119483" type="highway.primary">
+    <edge id="570938686#3.60" from="gneJ31" numLanes="4" priority="12" shape="9068.17,3679.02 8981.48,3697.45" speed="11.18" spreadType="center" to="cluster_201119381_201119483" type="highway.primary">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -104,7 +155,12 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="661061487#0.144" from="gneJ26" numLanes="4" priority="12" shape="8941.44,3692.00 8980.59,3680.53" speed="11.18" spreadType="center" to="201119381" type="highway.primary">
+    <edge id="661061479.52" from="gneJ43" numLanes="3" priority="11" speed="11.18" to="201169073" type="highway.secondary">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="661061487#0.144" from="gneJ26" numLanes="4" priority="12" shape="8941.44,3692.00 8980.59,3680.53" speed="11.18" spreadType="center" to="cluster_201119381_201119483" type="highway.primary">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -162,13 +218,14 @@
         <lane index="3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="gneE0" allow="pedestrian" from="201066043" numLanes="1" priority="-1" speed="13.89" to="201224423" width="2.00"/>
+    <edge id="gneE10" allow="pedestrian" from="201150167" numLanes="1" priority="-1" speed="13.89" to="gneJ23" width="2.00"/>
+    <edge id="gneE11" allow="pedestrian" from="201155821" numLanes="1" priority="-1" speed="13.89" to="gneJ23" width="2.00"/>
+    <edge id="gneE12" allow="pedestrian" from="6247337146" numLanes="1" priority="-1" shape="7918.84,4666.42 7916.69,4707.31 7927.57,4708.06" speed="13.89" to="201143507" width="2.00"/>
     <edge id="gneE2" from="201121046" numLanes="2" priority="-1" speed="13.89" to="201178512">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian"/>
     </edge>
     <edge id="gneE3" allow="pedestrian" from="201149922" numLanes="1" priority="-1" speed="13.89" to="gneJ22"/>
-    <edge id="gneE4" allow="pedestrian" from="201150163" numLanes="1" priority="-1" speed="13.89" to="gneJ23"/>
-    <edge id="gneE5" allow="pedestrian" from="gneJ23" numLanes="1" priority="-1" speed="13.89" to="201221120"/>
     <edge id="gneE6" allow="pedestrian" from="201119393" numLanes="1" priority="-1" speed="13.89" to="201119470"/>
     <edge id="gneE8" allow="pedestrian" from="gneJ34" numLanes="1" priority="-1" speed="13.89" to="gneJ35"/>
     <edge id="gneE9" allow="pedestrian" from="201119515" numLanes="1" priority="-1" speed="13.89" to="gneJ36" width="2.00"/>
@@ -177,13 +234,60 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19347536#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347536#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347621#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347621#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347621#2" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347621#3" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347621#4" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347624#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19347624#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19348099" priority="1"/>
     <edge id="-19348921" allow="pedestrian passenger delivery bicycle"/>
+    <edge id="-19349460" priority="2"/>
+    <edge id="-19350002" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19350122#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19350122#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19350122#3" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19350122#4" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19350122#5" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19351401" priority="2"/>
+    <edge id="-19351559" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19351581" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19351618#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19351618#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19351618#2" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-19351696#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19351696#10" priority="4"/>
+    <edge id="-19351696#11" priority="4"/>
+    <edge id="-19351696#6" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19351696#7" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19351696#8" priority="4"/>
+    <edge id="-19351696#9" priority="4"/>
+    <edge id="-19351857#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#11" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#12" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#13" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="-19351857#14" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#4" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#5" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#6" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19351857#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="-19351906" shape="8432.70,4501.47 8426.61,4500.03 8397.07,4496.63 8317.46,4489.49" to="gneJ18"/>
+    <edge id="-19351910#2" priority="4"/>
+    <edge id="-19351910#3" priority="4"/>
     <edge id="-19351928" numLanes="2"/>
     <edge id="-19352017#0" >
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric ship"/>
@@ -194,11 +298,56 @@
     <edge id="-19352017#2" >
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric ship"/>
     </edge>
+    <edge id="-19352102#0" priority="2"/>
+    <edge id="-19352220#0" priority="2"/>
+    <edge id="-19352285#11" disallow="tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352285#12" disallow="tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352285#13" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352285#14" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352285#15" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352285#16" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352285#17" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352285#18" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19352325" priority="2"/>
     <edge id="-19352433" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="-19352447" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352449#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352456#0" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352456#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352456#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352456#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352456#5" priority="5"/>
+    <edge id="-19352542" priority="2"/>
+    <edge id="-19352621#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352621#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352621#2" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -210,11 +359,55 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="-19353092#0" numLanes="2">
+    <edge id="-19352679" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19352722" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19352768" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353092#0" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353092#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353092#2" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353092#3" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353092#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353092#5" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353092#6" priority="4"/>
+    <edge id="-19353092#7" priority="4"/>
+    <edge id="-19353092#8" priority="4"/>
+    <edge id="-19353322" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353333#0" priority="9"/>
     <edge id="-19353381" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353461" numLanes="2" priority="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -266,13 +459,52 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19353591#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353591#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353747#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353747#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353747#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353747#3" from="cluster_201141968_201150316" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19353747#5" numLanes="2" shape="8789.87,5381.01 8843.61,5393.13" to="cluster_201141968_201150316">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19353810#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="-19353810#5" allow="pedestrian passenger delivery bicycle"/>
+    <edge id="-19353810#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="passenger delivery bicycle"/>
+    </edge>
     <edge id="-19353819" shape="8888.69,967.44 9089.65,996.53" to="cluster_201151614_201176627"/>
+    <edge id="-19353946#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19354057#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354288#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -284,15 +516,128 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19354349#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354372#3" priority="9"/>
+    <edge id="-19354437#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354437#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19354558#0" numLanes="3">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="-19354558#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" shape="8311.04,5472.58 8312.93,5449.38 8314.25,5433.11"/>
-    <edge id="-19355081#3" numLanes="2">
+    <edge id="-19354572#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354572#1" priority="2"/>
+    <edge id="-19354572#2" priority="2"/>
+    <edge id="-19354661#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#6" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#7" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#8" numLanes="2" priority="5">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354661#9" numLanes="2" priority="5">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354710#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354807#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19354896" priority="9"/>
+    <edge id="-19354908" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355081#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355081#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355081#3" numLanes="2" priority="11">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric ship"/>
     </edge>
     <edge id="-19355289#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355310#0" priority="2"/>
+    <edge id="-19355310#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355310#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355310#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355310#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355310#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355310#6" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355399#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19355399#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -302,6 +647,10 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="-19355479#1" numLanes="2" shape="8373.43,4808.06 8420.04,4811.27" to="cluster_201167327_201167333_201177314">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19355479#3" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -310,10 +659,28 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19356001" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356023#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356023#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19356025#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19356048#0" priority="2"/>
+    <edge id="-19356048#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356054" priority="2"/>
     <edge id="-19356224#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -326,6 +693,19 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19356258#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356258#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356258#2" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356262" priority="2"/>
     <edge id="-19356269" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -333,6 +713,23 @@
     <edge id="-19356382#0" shape="9573.51,6028.90 9587.71,6049.93 9604.34,6075.48 9616.30,6094.94 9625.86,6118.02" to="gneJ3"/>
     <edge id="-19356382#20" from="cluster_201141935_201191092"/>
     <edge id="-19356382#22" shape="9063.52,5149.50 9088.75,5212.03" to="cluster_201141935_201191092"/>
+    <edge id="-19356409#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356409#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356409#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356409#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356437" priority="2"/>
     <edge id="-19356452#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -341,18 +738,46 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19356476" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19356535#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="-19356703#0" numLanes="2">
+    <edge id="-19356535#6" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19356535#7" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19356535#8" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356549" priority="2"/>
+    <edge id="-19356562#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356637" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356703#0" from="cluster_201195383_201195392" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356753" priority="2"/>
     <edge id="-19356775#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19356776#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19356776#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-19356895#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -365,6 +790,10 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19357061" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19357074" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -373,11 +802,57 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19357107#0" priority="9"/>
     <edge id="-19357262#0" numLanes="2" to="cluster_201141935_201191092">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19357262#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357319#0" priority="9"/>
     <edge id="-19357385#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357385#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357385#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357385#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357385#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357385#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357385#6" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357385#7" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357397#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357397#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19357397#3" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -395,11 +870,14 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19357774" to="cluster_201195383_201195392"/>
+    <edge id="-19357791" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-19357991#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="-19358038#0" numLanes="2">
+    <edge id="-19358038#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-19358038#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -411,15 +889,35 @@
     <edge id="-19358221#1" numLanes="2"/>
     <edge id="-19358221#2" numLanes="2"/>
     <edge id="-19358221#3" numLanes="2"/>
+    <edge id="-19358272#1" shape="8423.07,4722.72 8420.04,4811.27" to="cluster_201167327_201167333_201177314"/>
+    <edge id="-19358324" priority="2"/>
     <edge id="-19358357" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19358545#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19358545#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-19358563#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="1.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19358563#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19358588#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19358658" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19358678" priority="2"/>
+    <edge id="-19358688#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -443,22 +941,101 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19359279#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359303" to="cluster_201141968_201150316"/>
     <edge id="-19359497" shape="8735.08,4406.93 8728.45,4396.44 8675.12,4428.61" to="201120886"/>
+    <edge id="-19359753#0" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359753#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359759#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359759#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359759#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359759#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19359786#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" priority="9"/>
+    <edge id="-19359786#10" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" priority="9"/>
+    <edge id="-19359786#2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19359786#6" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19359786#7" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19359786#8" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19359786#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-19359787#3" priority="9"/>
+    <edge id="-19360199" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19360222#4" from="cluster_201151614_201176627"/>
     <edge id="-19360222#6" to="cluster_201151614_201176627"/>
+    <edge id="-19360281#4" priority="9"/>
+    <edge id="-19360339#0" priority="9"/>
+    <edge id="-19360347#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19360420#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="-19360459#0" numLanes="2">
+    <edge id="-19360428" priority="2"/>
+    <edge id="-19360459#0" numLanes="2" priority="4">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19360459#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19360459#10" priority="4"/>
+    <edge id="-19360459#2" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19360459#3" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19360459#4" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19360459#5" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19360459#6" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19360459#7" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19360459#8" priority="4"/>
+    <edge id="-19360459#9" priority="4"/>
     <edge id="-19360591" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="-19360818" numLanes="2">
+    <edge id="-19360818" from="cluster_201195383_201195392" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -470,10 +1047,29 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19361189#0" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19361189#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-19361209" priority="2"/>
+    <edge id="-19361226#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-19361235#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="1.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-19361351#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-300729493" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-300729494" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-300729495#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-300729495#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-300729496" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-329995270#0" shape="8605.25,3769.97 8605.77,3764.46 8606.23,3759.50"/>
     <edge id="-329995274#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
@@ -492,10 +1088,36 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-329995324#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-329995324#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-329995331#10" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="-329995331#11" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="-329995331#8" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="-329995331#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-346959934#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-346959934#1" from="cluster_3534016481_3534016484"/>
+    <edge id="-346959934#3" to="cluster_3534016481_3534016484"/>
+    <edge id="-346959935#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-346959936#2" from="cluster_3534017325_3534017328" shape="8772.55,7157.11 8847.02,7146.02"/>
+    <edge id="-346959936#4" shape="8701.43,7163.80 8765.68,7158.60" to="cluster_3534017325_3534017328"/>
+    <edge id="-346966711" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-346966712" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-352879568" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="-358897200" shape="8268.80,5411.39 8287.42,5424.85 8297.06,5429.89 8314.25,5433.11"/>
     <edge id="-358976867" disallow="tram rail_urban rail rail_electric ship"/>
     <edge id="-43160265#1" >
@@ -507,11 +1129,20 @@
     <edge id="-440717065#3" from="cluster_201139092_3754935836"/>
     <edge id="-440717065#4" shape="8967.03,3854.52 8961.43,3923.82" to="cluster_201139092_3754935836"/>
     <edge id="-440717074#0" shape="8977.74,3514.02 8977.92,3529.07 8978.62,3587.88 8978.63,3588.82" to="cluster_gneJ43_gneJ44"/>
-    <edge id="-440717081#0" numLanes="3">
+    <edge id="-440717081#1" numLanes="3" shape="8979.29,3643.97 8980.88,3681.49" to="cluster_201119381_201119483">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="-440717081#1" numLanes="3">
-        <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="-445937781#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-445937781#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-445937781#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="-492477207#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="-492477208#3" to="201120886"/>
@@ -519,20 +1150,75 @@
     <edge id="-560828708" numLanes="3" shape="8275.99,4485.77 8276.82,4474.14 8278.28,4457.93" to="cluster_gneJ14_gneJ15_gneJ16">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-570938685" from="cluster_201119381_201119483" shape="8981.28,3696.48 8979.34,3717.97"/>
+    <edge id="-570941862#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-570941862#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-570941862#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-570942394#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-570942394#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-570942394#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-570942394#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="-586093472#1" priority="9"/>
+    <edge id="-586093487#0" shape="8677.46,7263.92 8736.53,7279.69" to="cluster_201179538_5601818412"/>
+    <edge id="-596607457#1" priority="4"/>
+    <edge id="-596607457#2" priority="4"/>
+    <edge id="-596607457#3" priority="4"/>
     <edge id="-610966930#4" to="gneJ9"/>
     <edge id="-610966930#8" shape="8607.08,3731.32 8609.87,3709.37" spreadType="center"/>
     <edge id="-610966930#9" from="201119398" shape="8606.23,3759.50 8607.12,3746.14 8608.07,3731.45"/>
+    <edge id="-617265278#1" allow="emergency bicycle"/>
+    <edge id="-617265279#10" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="-617265279#11" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" priority="9"/>
+    <edge id="-617265279#3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-617265279#4" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-617265279#5" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-617265279#6" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-617265279#7" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-617265279#8" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-617265279#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="-630338180" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="-65356877#0" shape="8320.88,5223.14 8321.60,5207.18 8324.05,5150.48 8331.47,4963.33 8331.46,4963.09" to="gneJ10"/>
+    <edge id="-661055467#5" from="cluster_201179538_5601818412"/>
     <edge id="-661061473#1" shape="8735.97,4594.45 8743.58,4602.92 8748.15,4608.02 8760.60,4621.95" to="gneJ0"/>
     <edge id="-661061477#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" priority="9"/>
     <edge id="-71472826" numLanes="3" shape="8274.82,4486.65 8273.33,4505.04 8269.95,4543.19 8269.19,4559.82 8265.82,4592.28" to="gneJ12">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="-71472970#0" priority="11" shape="8413.79,4831.53 8419.25,4824.55" to="cluster_201167327_201167333_201177314"/>
     <edge id="19347482" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19347536#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347536#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347621#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347621#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347621#2" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347621#3" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347621#4" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347624#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19347624#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="19347884#0" numLanes="2" shape="8435.10,4179.10 8431.10,4169.75 8415.47,4140.07" to="201065298">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -541,7 +1227,7 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19347930" numLanes="3">
+    <edge id="19347930" numLanes="3" shape="8638.68,4411.09 8621.17,4412.71 8614.20,4415.16" to="gneJ42">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -550,29 +1236,67 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19348099" priority="1"/>
     <edge id="19348162" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19348645" numLanes="2" priority="10">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19348921" allow="pedestrian passenger delivery bicycle"/>
+    <edge id="19349460" priority="2"/>
+    <edge id="19350002" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19350122#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19350122#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19350122#3" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19350122#4" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19350122#5" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="19350493" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19351185" allow="pedestrian passenger delivery bicycle" numLanes="3">
-        <lane index="2" width="2.00"/>
+    <edge id="19351185" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="pedestrian passenger delivery bicycle"/>
     </edge>
+    <edge id="19351401" priority="2"/>
+    <edge id="19351559" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19351581" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19351618#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19351618#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19351618#2" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="19351696#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19351696#10" priority="4"/>
+    <edge id="19351696#11" priority="4"/>
+    <edge id="19351696#7" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19351696#8" priority="4"/>
+    <edge id="19351696#9" priority="4"/>
+    <edge id="19351857#10" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19351857#11" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19351857#12" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19351857#13" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="19351857#14" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19351857#6" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19351857#7" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19351857#8" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19351857#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="19351874#0" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19351874#1" priority="2"/>
+    <edge id="19351910#2" priority="4"/>
+    <edge id="19351910#3" priority="4"/>
     <edge id="19351916#0" numLanes="4">
         <lane index="3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="1" allow="bicycle" width="2.00"/>
@@ -607,6 +1331,10 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19351996#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19352017#0" >
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric ship"/>
     </edge>
@@ -625,13 +1353,74 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19352044#1" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352102#0" priority="2"/>
+    <edge id="19352220#0" priority="2"/>
+    <edge id="19352256#0" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352256#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352270" numLanes="3" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352285#11" disallow="tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19352285#12" disallow="tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19352285#13" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19352285#14" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19352285#15" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19352285#16" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19352285#17" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19352285#18" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="19352287" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19352325" priority="2"/>
     <edge id="19352433" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="19352447" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352449#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352450" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352456#0" priority="4"/>
+    <edge id="19352456#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352456#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352456#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352456#5" priority="5"/>
+    <edge id="19352542" priority="2"/>
+    <edge id="19352621#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352621#2" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -643,9 +1432,102 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19353092#0" numLanes="2">
+    <edge id="19352679" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352722" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352768" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19352924#0" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#1" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#10" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#11" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#12" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#2" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#3" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#4" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#5" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#6" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#7" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#8" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19352924#9" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19353092#0" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#2" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#3" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#5" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#6" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#7" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353092#8" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353117#0" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19353117#1" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19353117#2" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
@@ -657,17 +1539,28 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19353293#2" to="cluster_201141968_201150316"/>
+    <edge id="19353322" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19353327" numLanes="3" priority="11">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19353333#0" priority="9"/>
     <edge id="19353351#0" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19353351#2" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19353363" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -690,6 +1583,10 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19353461" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="19353498" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
@@ -744,19 +1641,56 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19353591#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353591#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19353659" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19353732#0" from="cluster_201149993_850365418" shape="8447.49,3827.09 8446.32,3839.07 8436.02,4034.14" to="gneJ23"/>
+    <edge id="19353732#0" from="cluster_201149993_850365418" shape="8447.49,3827.09 8446.32,3839.07 8438.07,3990.62" to="gneJ23"/>
+    <edge id="19353747#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353747#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353747#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353747#3" numLanes="2" to="cluster_201141968_201150316">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353747#5" from="cluster_201141968_201150316" numLanes="2" shape="8843.61,5393.13 8789.87,5381.01">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19353810#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353810#5" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="19353819" from="cluster_201151614_201176627" numLanes="2" shape="9089.65,996.53 8888.69,967.44">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19353885" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19353969" numLanes="3" shape="8836.96,4726.00 8836.46,4726.41 8784.50,4787.17">
         <lane index="0" allow="pedestrian" width="2.00"/>
@@ -784,11 +1718,61 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19354288#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19354319" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="19354328" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354349#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354372#3" priority="9"/>
+    <edge id="19354435#0" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#1" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#10" numLanes="3" priority="2">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#2" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#3" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#4" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#5" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#6" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#7" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#8" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354435#9" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354437#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354437#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -808,22 +1792,76 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19354745#0" numLanes="3" priority="11">
+    <edge id="19354566#6" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19354745#1" numLanes="3" priority="11">
+    <edge id="19354566#7" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354566#8" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19354745#2" numLanes="3" priority="11">
+    <edge id="19354566#9" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19354745#3" numLanes="3" priority="11">
+    <edge id="19354572#1" priority="2"/>
+    <edge id="19354572#2" priority="2"/>
+    <edge id="19354589#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354589#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354661#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354661#6" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354661#7" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354661#8" numLanes="2" priority="5">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354661#9" numLanes="2" priority="5">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354710#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354745#0" numLanes="3" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354745#1" numLanes="3" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354745#2" numLanes="3" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354745#3" numLanes="3" priority="4">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -833,7 +1871,7 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19354772" numLanes="3" priority="11">
+    <edge id="19354772" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -841,19 +1879,69 @@
     <edge id="19354792#0" numLanes="3">
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19354792#7" numLanes="3" priority="11" to="cluster_201167327_201167333_201177314">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19354807#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19354896" priority="9"/>
     <edge id="19354917" shape="8437.32,4404.70 8296.58,4382.38" to="cluster_201149895_6247337294"/>
     <edge id="19355055" numLanes="3" shape="8845.36,4716.42 8841.71,4720.52 8836.96,4726.00">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19355081#3" disallow="tram rail_urban rail rail_electric ship"/>
+    <edge id="19355081#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355081#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355081#3" disallow="pedestrian tram rail_urban rail rail_electric ship" priority="11"/>
     <edge id="19355289#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355306" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19355310#0" priority="2"/>
+    <edge id="19355310#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355310#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355310#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355310#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355399#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19355399#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="19355415#1" disallow="tram rail_urban rail rail_electric ship"/>
     <edge id="19355418" to="cluster_201151614_201176627"/>
+    <edge id="19355479#1" from="cluster_201167327_201167333_201177314" numLanes="2" shape="8420.04,4811.27 8373.43,4808.06">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19355479#3" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -863,7 +1951,7 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19355490" numLanes="3" priority="11">
+    <edge id="19355490" numLanes="3" priority="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -882,10 +1970,33 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19355750#1" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
     <edge id="19355923" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19356001" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356023#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356023#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356048#0" priority="2"/>
+    <edge id="19356048#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356054" priority="2"/>
     <edge id="19356224#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -903,6 +2014,16 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19356258#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356258#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356258#2" priority="4"/>
+    <edge id="19356262" priority="2"/>
     <edge id="19356269" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -918,6 +2039,23 @@
     </edge>
     <edge id="19356382#20" to="cluster_201141935_201191092"/>
     <edge id="19356382#22" from="cluster_201141935_201191092" shape="9088.75,5212.03 9063.52,5149.50"/>
+    <edge id="19356409#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356409#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356409#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356409#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356437" priority="2"/>
     <edge id="19356452#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -926,7 +2064,24 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19356703#0" numLanes="2">
+    <edge id="19356535#6" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356535#7" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356549" priority="2"/>
+    <edge id="19356562#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356637" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356703#0" numLanes="2" to="cluster_201195383_201195392">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -935,6 +2090,7 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19356753" priority="2"/>
     <edge id="19356775#1" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -942,6 +2098,17 @@
     <edge id="19356775#2" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356776#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356776#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19356778" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19356895#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
@@ -952,6 +2119,10 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="19357057#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357061" numLanes="2" priority="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -968,6 +2139,7 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19357107#0" priority="9"/>
     <edge id="19357114#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -980,7 +2152,56 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19357262#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357279" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357319#0" priority="9"/>
     <edge id="19357385#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357385#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357385#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357385#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357385#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357385#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357385#6" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357385#7" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357397#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357397#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19357397#3" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -1012,12 +2233,17 @@
     <edge id="19357702" numLanes="3" priority="10">
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19357704#0" numLanes="3" priority="11">
+    <edge id="19357704#0" numLanes="3" priority="4">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19357704#1" numLanes="3" priority="11">
+    <edge id="19357704#1" numLanes="3" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19357704#2" numLanes="3" priority="4">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -1026,9 +2252,28 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19357732" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19357774" from="cluster_201195383_201195392"/>
     <edge id="19358038#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19358038#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19358038#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19358102#0" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19358140" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
@@ -1043,6 +2288,12 @@
     <edge id="19358221#1" numLanes="2"/>
     <edge id="19358221#2" numLanes="2"/>
     <edge id="19358221#3" numLanes="2"/>
+    <edge id="19358272#1" from="cluster_201167327_201167333_201177314" shape="8420.04,4811.27 8423.07,4722.72"/>
+    <edge id="19358319" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19358324" priority="2"/>
     <edge id="19358357" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -1057,6 +2308,11 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19358545#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19358545#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19358563#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="1.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -1067,6 +2323,10 @@
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19358587#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19358588#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -1085,6 +2345,11 @@
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19358658" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19358678" priority="2"/>
+    <edge id="19358688#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -1108,19 +2373,62 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19359279#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359303" from="cluster_201141968_201150316"/>
     <edge id="19359368#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" shape="8636.33,4363.90 8636.36,4368.65 8637.03,4374.70 8640.28,4410.98"/>
     <edge id="19359497" from="201120886" shape="8675.12,4428.61 8728.45,4396.44 8735.08,4406.93"/>
-    <edge id="19359517#0" numLanes="3" priority="11">
+    <edge id="19359517#0" numLanes="3" priority="4">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="19359517#1" numLanes="3" priority="11">
+    <edge id="19359517#1" numLanes="3" priority="4">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19359517#2" numLanes="2" priority="4" shape="9141.48,4574.01 9225.46,4509.50 9240.09,4473.79">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359517#3" numLanes="2" priority="4" shape="9239.99,4474.01 9255.72,4440.42">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359517#4" numLanes="2" priority="4" shape="9255.77,4440.31 9290.45,4377.24">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359517#5" numLanes="2" priority="2" shape="9290.45,4377.24 9343.69,4280.41">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359753#0" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359753#1" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359759#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19359759#3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="19359786#10" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" priority="9"/>
+    <edge id="19359786#7" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19359786#8" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19359786#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="19359858" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19359958" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -1155,23 +2463,70 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="19360199" numLanes="2" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19360222#4" to="cluster_201151614_201176627"/>
     <edge id="19360222#6" from="cluster_201151614_201176627"/>
+    <edge id="19360281#4" priority="9"/>
+    <edge id="19360333#9" priority="11"/>
+    <edge id="19360347#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19360420#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19360459#0" numLanes="2">
+    <edge id="19360428" priority="2"/>
+    <edge id="19360459#0" numLanes="2" priority="4">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19360459#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360459#10" priority="4"/>
+    <edge id="19360459#2" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360459#3" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360459#4" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360459#5" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360459#6" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360459#7" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360459#8" priority="4"/>
+    <edge id="19360459#9" priority="4"/>
     <edge id="19360591" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="19360818" numLanes="2">
+    <edge id="19360818" numLanes="2" to="cluster_201195383_201195392">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19360897#0" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19360897#2" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
@@ -1190,15 +2545,52 @@
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="19361060#8" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19361189#0" priority="2"/>
+    <edge id="19361189#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19361209" priority="2"/>
+    <edge id="19361226#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="19361235#0" numLanes="2">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19361255#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="19361351#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19361351#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="19361362" numLanes="3" priority="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="19361385#0" numLanes="3">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="19361431" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="203953878#2" to="cluster_201179538_5601818412"/>
+    <edge id="203954017#0" from="cluster_201179538_5601818412"/>
+    <edge id="203954132#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="203954132#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="229788928#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="278433716#0" numLanes="3" shape="8614.44,4464.33 8603.62,4448.87 8594.87,4433.88 8591.12,4432.47">
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -1245,10 +2637,21 @@
     <edge id="278720715#5" numLanes="3" priority="11">
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
-    <edge id="278720715#6" numLanes="3" priority="11">
-        <lane index="2" allow="pedestrian" width="2.00"/>
+    <edge id="278720715#6" numLanes="4" priority="11">
+        <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+        <lane index="3" allow="pedestrian" width="2.00"/>
     </edge>
     <edge id="288107045#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="288107045#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="288107045#2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="288107045#3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="288107045#4" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="288107045#5" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="300729493" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="300729494" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="300729495#0" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="300729495#1" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="300729496" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
     <edge id="329995270#0" numLanes="3" shape="8606.23,3759.50 8605.77,3764.46 8605.25,3769.97">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
@@ -1275,6 +2678,14 @@
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
     </edge>
+    <edge id="329995324#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="329995324#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="329995331#1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="329995331#10" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="329995331#11" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
@@ -1284,6 +2695,30 @@
     <edge id="329995331#7" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="329995331#8" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="329995331#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="346959930#0" from="cluster_201179538_5601818412" to="cluster_3534017325_3534017328"/>
+    <edge id="346959930#1" from="cluster_3534017325_3534017328" to="cluster_3534016481_3534016484"/>
+    <edge id="346959930#2" from="cluster_3534016481_3534016484"/>
+    <edge id="346959931#0" shape="8820.63,6987.01 8800.27,7050.37" to="cluster_3534016481_3534016484"/>
+    <edge id="346959931#1" from="cluster_3534016481_3534016484" to="cluster_3534017325_3534017328"/>
+    <edge id="346959931#2" from="cluster_3534017325_3534017328" to="cluster_201179538_5601818412"/>
+    <edge id="346959934#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="346959934#1" to="cluster_3534016481_3534016484"/>
+    <edge id="346959934#3" from="cluster_3534016481_3534016484"/>
+    <edge id="346959935#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="346959936#2" shape="8847.02,7146.02 8772.55,7157.11" to="cluster_3534017325_3534017328"/>
+    <edge id="346959936#4" from="cluster_3534017325_3534017328" shape="8765.68,7158.60 8701.43,7163.80"/>
+    <edge id="346966711" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="346966712" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="352879568" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="358897200" shape="8314.25,5433.11 8294.59,5430.32 8285.48,5427.53 8268.80,5411.39"/>
     <edge id="358976867" disallow="tram rail_urban rail rail_electric ship"/>
     <edge id="371949302#1" to="cluster_201139092_3754935836"/>
@@ -1297,13 +2732,26 @@
     <edge id="440717065#3" to="cluster_201139092_3754935836"/>
     <edge id="440717065#4" from="cluster_201139092_3754935836" shape="8961.43,3923.82 8967.03,3854.52"/>
     <edge id="440717074#0" shape="8979.29,3643.97 8978.62,3588.19" to="cluster_gneJ43_gneJ44"/>
-    <edge id="440717081#0" numLanes="3">
-        <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="440717081#1" from="cluster_201119381_201119483" shape="8980.88,3681.49 8979.29,3643.97"/>
+    <edge id="445937781#0" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="445937781#1" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="445937781#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="492477204" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="492477207#0" numLanes="3">
+        <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="492477208#1" numLanes="3" spreadType="center">
         <lane index="2" allow="pedestrian" width="2.00"/>
@@ -1316,23 +2764,59 @@
         <lane index="3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="4" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
-    <edge id="570938685" numLanes="4">
+    <edge id="570938685" numLanes="4" shape="8979.34,3717.97 8981.28,3696.48" to="cluster_201119381_201119483">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
     <edge id="570938686#2" shape="9226.09,3645.49 9219.13,3646.45 9188.52,3653.12" to="gneJ34"/>
     <edge id="570938686#3" shape="9127.29,3666.45 9068.17,3679.02" to="gneJ31"/>
-    <edge id="570938686#4" numLanes="2"/>
+    <edge id="570938686#4" from="cluster_201119381_201119483" numLanes="2"/>
     <edge id="570938686#5" numLanes="2" shape="8803.17,3727.99 8729.41,3744.03" to="gneJ27"/>
     <edge id="570938686#6" shape="8617.59,3768.35 8605.47,3770.95"/>
     <edge id="570938686#7" shape="8605.53,3770.93 8571.21,3780.87 8558.19,3783.01 8542.67,3785.21 8527.97,3786.71" to="gneJ25"/>
     <edge id="570938686#8" numLanes="4">
         <lane index="3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="570941862#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="570941862#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="570941862#5" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="570942394#2" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="570942394#3" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="570942394#4" numLanes="2">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="570942397" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" to="gneJ11"/>
     <edge id="576756558#0" numLanes="3">
         <lane index="2" allow="pedestrian" width="1.00"/>
     </edge>
+    <edge id="586093471" numLanes="2" shape="8165.24,4578.67 8159.92,4650.43">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="586093472#1" priority="9"/>
+    <edge id="586093487#0" from="cluster_201179538_5601818412" shape="8736.53,7279.69 8677.46,7263.92"/>
+    <edge id="596607457#1" numLanes="2" priority="4">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
+    <edge id="596607457#2" priority="4"/>
+    <edge id="596607457#3" priority="4"/>
     <edge id="596612985#0" >
         <lane index="0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
         <lane index="1" allow="pedestrian" width="2.00"/>
@@ -1388,12 +2872,32 @@
     <edge id="610966930#9" numLanes="3" shape="8608.07,3731.45 8607.12,3746.14 8606.23,3759.50" to="201119398">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="616852537#1" from="201253073" numLanes="3" shape="7981.28,4638.09 7984.16,4594.09">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="616852537#2" numLanes="3">
+        <lane index="2" allow="pedestrian" width="2.00"/>
+    </edge>
+    <edge id="617265279#10" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="617265279#11" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" priority="9"/>
+    <edge id="617265279#3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="617265279#4" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="617265279#5" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="617265279#6" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="617265279#7" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="617265279#8" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
+    <edge id="617265279#9" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1"/>
     <edge id="617523920#3" numLanes="3">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="630338180" disallow="tram rail_urban rail rail_electric rail_fast ship"/>
+    <edge id="661055467#5" to="cluster_201179538_5601818412"/>
     <edge id="661061473#1" shape="8806.59,4672.46 8790.14,4654.01 8789.62,4653.44" to="gneJ1"/>
     <edge id="661061477#0" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship" numLanes="1" priority="9"/>
+    <edge id="661061479" to="gneJ43"/>
+    <edge id="661061481" numLanes="3">
+        <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
+    </edge>
     <edge id="661061483#0" from="cluster_gneJ14_gneJ15_gneJ16" shape="8274.70,4451.09 8276.84,4426.99 8282.41,4393.12"/>
     <edge id="661061484#2" from="3633104627" numLanes="4" shape="8309.16,4317.80 8298.45,4377.22" to="cluster_201149895_6247337294">
         <lane index="3" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -1409,8 +2913,10 @@
         <lane index="1" allow="bicycle" width="2.00"/>
     </edge>
     <edge id="661061487#0" numLanes="2" shape="8799.33,3719.10 8825.34,3711.99 8941.44,3692.00" to="gneJ26"/>
+    <edge id="661061487#1" from="cluster_201119381_201119483"/>
     <edge id="661061487#3" shape="9159.99,3637.95 9183.72,3632.62" to="gneJ35"/>
     <edge id="661061487#4" shape="9220.25,3624.43 9230.46,3623.49 9241.35,3623.42 9252.79,3623.01 9278.97,3622.98" to="gneJ36"/>
+    <edge id="667242641#1" to="201253073"/>
     <edge id="71468899" numLanes="3">
         <lane index="0" allow="pedestrian" width="2.00"/>
         <lane index="1" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
@@ -1440,6 +2946,7 @@
     <edge id="71472826" numLanes="3" shape="8266.77,4647.44 8266.56,4631.01 8265.47,4599.22 8269.19,4559.82 8269.94,4543.40" to="gneJ13">
         <lane index="2" disallow="pedestrian tram rail_urban rail rail_electric rail_fast ship"/>
     </edge>
+    <edge id="71472970#0" from="cluster_201167327_201167333_201177314" priority="11" shape="8419.25,4824.55 8413.79,4831.53"/>
     <edge id="92384042#0" shape="10803.40,4326.21 10779.46,4320.99 10734.10,4319.97 10708.46,4316.41 10679.54,4311.50 10648.74,4303.98 10617.97,4297.46 10589.01,4288.97 10537.39,4268.44 10481.93,4247.51" to="gneJ41">
         <lane index="1" allow="bicycle" width="2.00"/>
     </edge>
