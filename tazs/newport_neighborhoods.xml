@@ -1062,9 +1062,7 @@
     </taz>
     <taz id="historic_hill" shape="8445.42,4375.90 8428.80,4377.98 8459.96,3808.69 8971.07,3704.81 8946.14,3943.74 8903.58,4123.10 8643.61,4350.30 8445.42,4375.90">
         <tazSource id="661061480#1" weight="1.00"/>
-        <tazSource id="-661061480#1" weight="1.00"/>
         <tazSource id="661061480#2" weight="1.00"/>
-        <tazSource id="-661061480#2" weight="1.00"/>
         <tazSource id="19360897#0" weight="1.00"/>
         <tazSource id="19360897#1" weight="1.00"/>
         <tazSource id="19360897#2" weight="1.00"/>
@@ -1096,21 +1094,13 @@
         <tazSource id="19354072#1" weight="1.00"/>
         <tazSource id="19354072#5" weight="1.00"/>
         <tazSource id="329995270#6" weight="1.00"/>
-        <tazSource id="-329995270#6" weight="1.00"/>
         <tazSource id="329995270#7" weight="1.00"/>
-        <tazSource id="-329995270#7" weight="1.00"/>
         <tazSource id="329995270#8" weight="1.00"/>
-        <tazSource id="-329995270#8" weight="1.00"/>
         <tazSource id="329995270#9" weight="1.00"/>
-        <tazSource id="-329995270#9" weight="1.00"/>
         <tazSource id="329995270#5" weight="1.00"/>
-        <tazSource id="-329995270#5" weight="1.00"/>
         <tazSource id="329995270#4" weight="1.00"/>
-        <tazSource id="-329995270#4" weight="1.00"/>
         <tazSource id="329995270#3" weight="1.00"/>
-        <tazSource id="-329995270#3" weight="1.00"/>
         <tazSource id="329995270#2" weight="1.00"/>
-        <tazSource id="-329995270#2" weight="1.00"/>
         <tazSource id="19358357" weight="1.00"/>
         <tazSource id="-19358357" weight="1.00"/>
         <tazSource id="19360010#0" weight="1.00"/>
@@ -1137,15 +1127,10 @@
         <tazSource id="71466914#5" weight="1.00"/>
         <tazSource id="71466914#6" weight="1.00"/>
         <tazSource id="610966932#1" weight="1.00"/>
-        <tazSource id="-610966932#1" weight="1.00"/>
-        <tazSource id="-610966932#2" weight="1.00"/>
         <tazSource id="610966932#2" weight="1.00"/>
         <tazSource id="610966932#3" weight="1.00"/>
-        <tazSource id="-610966932#3" weight="1.00"/>
         <tazSink id="661061480#1" weight="1.00"/>
-        <tazSink id="-661061480#1" weight="1.00"/>
         <tazSink id="661061480#2" weight="1.00"/>
-        <tazSink id="-661061480#2" weight="1.00"/>
         <tazSink id="19360897#0" weight="1.00"/>
         <tazSink id="19360897#1" weight="1.00"/>
         <tazSink id="19360897#2" weight="1.00"/>
@@ -1177,21 +1162,13 @@
         <tazSink id="19354072#1" weight="1.00"/>
         <tazSink id="19354072#5" weight="1.00"/>
         <tazSink id="329995270#6" weight="1.00"/>
-        <tazSink id="-329995270#6" weight="1.00"/>
         <tazSink id="329995270#7" weight="1.00"/>
-        <tazSink id="-329995270#7" weight="1.00"/>
         <tazSink id="329995270#8" weight="1.00"/>
-        <tazSink id="-329995270#8" weight="1.00"/>
         <tazSink id="329995270#9" weight="1.00"/>
-        <tazSink id="-329995270#9" weight="1.00"/>
         <tazSink id="329995270#5" weight="1.00"/>
-        <tazSink id="-329995270#5" weight="1.00"/>
         <tazSink id="329995270#4" weight="1.00"/>
-        <tazSink id="-329995270#4" weight="1.00"/>
         <tazSink id="329995270#3" weight="1.00"/>
-        <tazSink id="-329995270#3" weight="1.00"/>
         <tazSink id="329995270#2" weight="1.00"/>
-        <tazSink id="-329995270#2" weight="1.00"/>
         <tazSink id="19358357" weight="1.00"/>
         <tazSink id="-19358357" weight="1.00"/>
         <tazSink id="19360010#0" weight="1.00"/>
@@ -1218,11 +1195,8 @@
         <tazSink id="71466914#5" weight="1.00"/>
         <tazSink id="71466914#6" weight="1.00"/>
         <tazSink id="610966932#1" weight="1.00"/>
-        <tazSink id="-610966932#1" weight="1.00"/>
-        <tazSink id="-610966932#2" weight="1.00"/>
         <tazSink id="610966932#2" weight="1.00"/>
         <tazSink id="610966932#3" weight="1.00"/>
-        <tazSink id="-610966932#3" weight="1.00"/>
     </taz>
     <taz id="kay" shape="8906.35,4146.41 8933.31,4082.55 9167.46,4159.18 9427.15,4350.76 9347.69,4797.77 9249.77,4934.00 9046.84,5075.91 8960.28,4846.02 8774.38,4606.20 8684.97,4343.67 8897.84,4164.86 8906.35,4146.41" color="blue">
         <tazSource id="-661061474#0" weight="1.00"/>
@@ -2868,7 +2842,6 @@
         <tazSource id="19355399#0" weight="1.00"/>
         <tazSource id="-19355399#0" weight="1.00"/>
         <tazSource id="19352256#0" weight="1.00"/>
-        <tazSource id="-19352256#0" weight="1.00"/>
         <tazSource id="19352449#1" weight="1.00"/>
         <tazSource id="-19352449#1" weight="1.00"/>
         <tazSource id="19352449#0" weight="1.00"/>
@@ -3024,7 +2997,6 @@
         <tazSink id="19355399#0" weight="1.00"/>
         <tazSink id="-19355399#0" weight="1.00"/>
         <tazSink id="19352256#0" weight="1.00"/>
-        <tazSink id="-19352256#0" weight="1.00"/>
         <tazSink id="19352449#1" weight="1.00"/>
         <tazSink id="-19352449#1" weight="1.00"/>
         <tazSink id="19352449#0" weight="1.00"/>

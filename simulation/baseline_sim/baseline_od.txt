@@ -17,3 +17,9 @@ the_point     kay               1.0
 fifth_ward    the_point         1.0
 bowery        the_point         1.0
 warner        ocean_drive       1.0
+miantonomi    the_point         1.0
+historic_hill malbone           1.0
+miantonomi    broadway_business 1.0
+bowery        off_island_west   1.0
+warner        off_island_north  1.0
+malbone       lower_thames      1.0
