@@ -3,6 +3,8 @@ This repository contains a network model around Aquidneck Island for use in [SUM
 
 ![network overview](images/netedit_overview_map.png)
 
+![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)  This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
 This code base is designed to allow customization of the SUMO network based on OpenStreetMap data, in such a way that it can be reconstituted from scratch using `netconvert`.
 
 ## Mapping Workflow
