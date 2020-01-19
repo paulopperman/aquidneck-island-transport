@@ -1,0 +1,31 @@
+<additional>
+<rerouter id="gate_closures" edges="19353629#7 -19357622 19357622 229788928#14 -609482118#1 -570946958#0 -570946957#1 -19351243 -609463212 609463218#2 300729491 -300729491 19353614#3 -506440464#1 -19350224#0 19353614#2 -65355127#0 -65355126#0 511384978#3 71477891 203953456#6 586093477#0 19348998#1 -19348998#2 28077306#2 203953457#0 229788934 -229788934">
+  <interval begin="0" end="21600">
+    <closingReroute id="-609463212"/>
+    <closingReroute id="609463218#2"/>
+    <closingReroute id="19353614#3"/>
+    <closingReroute id="300729491"/>
+    <closingReroute id="-300729491"/>
+  </interval>
+
+  <interval begin="43200" end="64800">
+    <closingReroute id="300729491"/>
+    <closingReroute id="-300729491"/>
+  </interval>
+  <interval begin="64800" end="100000">
+    <closingReroute id="-609463212"/>
+    <closingReroute id="609463218#2"/>
+    <closingReroute id="19353614#3"/>
+    <closingReroute id="300729491"/>
+    <closingReroute id="-300729491"/>
+  </interval>
+</rerouter>
+
+<variableSpeedSign id="gate1" lanes="-492216014_1">
+  <!-- double flow rate through inbound gate to simulate extra lane opening -->
+  <step time="0" speed="2"/>
+  <step time="18000" speed="3"/>
+  <step time="21600" speed="4"/>
+  <step time="32400" speed="2"/>
+</variableSpeedSign>
+</additional>

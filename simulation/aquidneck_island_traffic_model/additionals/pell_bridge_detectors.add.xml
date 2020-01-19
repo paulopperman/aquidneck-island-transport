@@ -1,0 +1,418 @@
+<additional>
+  <!-- pell bridge ea detectors -->
+
+<!-- Farewell St Intersection -->
+  <!-- detector 1 -->
+  <!-- left -->
+  <entryExitDetector id="e3_1_l" freq="3600" file="../output/pell_probe_data/e3_1_l_detector.xml">
+    <detEntry lane="65356877#1_1" pos="131"/>
+    <detExit lane="-71474894_1" pos="3"/>
+  </entryExitDetector>
+  <!-- straight -->
+  <entryExitDetector id="e3_1_s" freq="3600" file="../output/pell_probe_data/e3_1_s_detector.xml">
+    <detEntry lane="65356877#1_1" pos="131"/>
+    <detExit lane="19354558#0_1" pos="3"/>
+  </entryExitDetector>
+  <!-- right -->
+  <entryExitDetector id="e3_1_r" freq="3600" file="../output/pell_probe_data/e3_1_r_detector.xml">
+    <detEntry lane="65356877#1_1" pos="131"/>
+    <detExit lane="288107045#0_0" pos="3"/>
+  </entryExitDetector>
+
+  <!-- detector 2  -->
+  <!-- left -->
+  <entryExitDetector id="e3_2_l" freq="3600" file="../output/pell_probe_data/e3_2_l_detector.xml">
+    <detEntry lane="-288107045#0_1" pos="76"/>
+    <detExit lane="-65356877#1_0" pos="2"/>
+  </entryExitDetector>
+  <!-- straight -->
+  <entryExitDetector id="e3_2_s" freq="3600" file="../output/pell_probe_data/e3_2_s_detector.xml">
+    <detEntry lane="-288107045#0_1" pos="76"/>
+    <detExit lane="-71474894_1" pos="2"/>
+  </entryExitDetector>
+  <!-- right -->
+  <entryExitDetector id="e3_2_r" freq="3600" file="../output/pell_probe_data/e3_2_r_detector.xml">
+    <detEntry lane="-288107045#0_1" pos="76"/>
+    <detExit lane="19354558#0_1" pos="2"/>
+  </entryExitDetector>
+
+  <!-- detector 3 -->
+  <!-- left -->
+  <entryExitDetector id="e3_3_l" freq="3600" file="../output/pell_probe_data/e3_3_l_detector.xml">
+    <detEntry lane="-19354558#0_2" pos="42"/>
+    <detExit lane="288107045#0_0" pos="3"/>
+  </entryExitDetector>
+  <!-- straight -->
+  <entryExitDetector id="e3_3_s" freq="3600" file="../output/pell_probe_data/e3_3_s_detector.xml">
+    <detEntry lane="-19354558#0_1" pos="42"/>
+    <detExit lane="-65356877#1_0" pos="2"/>
+  </entryExitDetector>
+  <!-- right -->
+  <entryExitDetector id="e3_3_r" freq="3600" file="../output/pell_probe_data/e3_3_r_detector.xml">
+    <detEntry lane="-19354558#0_1" pos="42"/>
+    <detExit lane="-71474894_1" pos="2"/>
+  </entryExitDetector>
+
+  <!-- detector 4 -->
+  <!-- left -->
+  <entryExitDetector id="e3_4_l" freq="3600" file="../output/pell_probe_data/e3_4_l_detector.xml">
+    <detEntry lane="71474894_1" pos="63"/>
+    <detExit lane="19354558#0_1" pos="3"/>
+  </entryExitDetector>
+  <!-- straight -->
+  <entryExitDetector id="e3_4_s" freq="3600" file="../output/pell_probe_data/e3_4_s_detector.xml">
+    <detEntry lane="71474894_1" pos="63"/>
+    <detExit lane="288107045#0_0" pos="2"/>
+  </entryExitDetector>
+  <!-- right -->
+  <entryExitDetector id="e3_4_r" freq="3600" file="../output/pell_probe_data/e3_4_r_detector.xml">
+    <detEntry lane="71474894_1" pos="63"/>
+    <detExit lane="-65356877#1_0" pos="2"/>
+  </entryExitDetector>
+
+<!-- 3rd St Intersection -->
+  <!-- detector 5 -->
+  <!-- left -->
+  <entryExitDetector id="e3_5_l" freq="3600" file="../output/pell_probe_data/e3_5_l_detector.xml">
+    <detEntry lane="203953456#6_1" pos="20"/>
+    <detExit lane="-71474894_1" pos="3"/>
+  </entryExitDetector>
+  <!-- straight -->
+  <entryExitDetector id="e3_5_s" freq="3600" file="../output/pell_probe_data/e3_5_s_detector.xml">
+    <detEntry lane="203953456#6_1" pos="20"/>
+    <detExit lane="203953457#0_0" pos="3"/>
+  </entryExitDetector>
+  <!-- right -->
+  <entryExitDetector id="e3_5_r" freq="3600" file="../output/pell_probe_data/e3_5_r_detector.xml">
+    <detEntry lane="203953456#6_1" pos="20"/>
+    <detExit lane="-28077306#2_1" pos="3"/>
+  </entryExitDetector>
+
+  <!-- detector 6 -->
+  <entryExitDetector id="e3_6_l" freq="3600" file="../output/pell_probe_data/e3_6_l_detector.xml">
+    <detEntry lane="28077306#2_1" pos="61"/>
+    <detExit lane="-203953456#6_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_6_s" freq="3600" file="../output/pell_probe_data/e3_6_s_detector.xml">
+    <detEntry lane="28077306#2_1" pos="61"/>
+    <detExit lane="-19360037#3_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_6_r" freq="3600" file="../output/pell_probe_data/e3_6_r_detector.xml">
+    <detEntry lane="28077306#2_1" pos="61"/>
+    <detExit lane="203953457#0_0" pos="2"/>
+  </entryExitDetector>
+
+  <!-- detector 7 -->
+  <entryExitDetector id="e3_7_l" freq="3600" file="../output/pell_probe_data/e3_7_l_detector.xml">
+    <detEntry lane="-203953457#0_0" pos="76"/>
+    <detExit lane="-28077306#2_1" pos="3"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_7_s" freq="3600" file="../output/pell_probe_data/e3_7_s_detector.xml">
+    <detEntry lane="-203953457#0_0" pos="76"/>
+    <detExit lane="-203953456#6_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_7_r" freq="3600" file="../output/pell_probe_data/e3_7_r_detector.xml">
+    <detEntry lane="-203953457#0_0" pos="76"/>
+    <detExit lane="-19360037#3_1" pos="2"/>
+  </entryExitDetector>
+
+  <!-- detector 8 -->
+  <entryExitDetector id="e3_8_l" freq="3600" file="../output/pell_probe_data/e3_8_l_detector.xml">
+    <detEntry lane="19360037#2_1" pos="99"/>
+    <detExit lane="203953457#0_0" pos="3"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_8_s" freq="3600" file="../output/pell_probe_data/e3_8_s_detector.xml">
+    <detEntry lane="19360037#2_1" pos="99"/>
+    <detExit lane="-28077306#2_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_8_r" freq="3600" file="../output/pell_probe_data/e3_8_r_detector.xml">
+    <detEntry lane="19360037#2_1" pos="99"/>
+    <detExit lane="-203953456#5_1" pos="2"/>
+  </entryExitDetector>
+
+  <!-- rotary -->
+  <!-- detector 9 -->
+  <entryExitDetector id="e3_9_l" freq="3600" file="../output/pell_probe_data/e3_9_l_detector.xml">
+    <detEntry lane="19353929#1_1" pos="30"/>
+    <detExit lane="19357365_1" pos="3"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_9_s" freq="3600" file="../output/pell_probe_data/e3_9_s_detector.xml">
+    <detEntry lane="19353929#1_1" pos="30"/>
+    <detExit lane="19353925_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_9_r" freq="3600" file="../output/pell_probe_data/e3_9_r_detector.xml">
+    <detEntry lane="19353929#1_1" pos="30"/>
+    <detExit lane="28772079_1" pos="2"/>
+    <detExit lane="28772079_2" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 10 -->
+  <entryExitDetector id="e3_10_s" freq="3600" file="../output/pell_probe_data/e3_10_s_detector.xml">
+    <detEntry lane="71477891_1" pos="78"/>
+    <detEntry lane="71477891_2" pos="78"/>
+    <detExit lane="19357365_1" pos="3"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_10_r" freq="3600" file="../output/pell_probe_data/e3_10_r_detector.xml">
+    <detEntry lane="71477891_1" pos="78"/>
+    <detEntry lane="71477891_2" pos="78"/>
+    <detExit lane="19353925_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_10_l" freq="3600" file="../output/pell_probe_data/e3_10_l_detector.xml">
+    <detEntry lane="71477891_1" pos="78"/>
+    <detEntry lane="71477891_2" pos="78"/>
+    <detExit lane="19353932_1" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 11 -->
+  <entryExitDetector id="e3_11_l" freq="3600" file="../output/pell_probe_data/e3_11_l_detector.xml">
+    <detEntry lane="19353936_1" pos="27"/>
+    <detExit lane="28772079_1" pos="2"/>
+    <detExit lane="28772079_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_11_s" freq="3600" file="../output/pell_probe_data/e3_11_s_detector.xml">
+    <detEntry lane="19353936_1" pos="27"/>
+    <detExit lane="19353932_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_11_r" freq="3600" file="../output/pell_probe_data/e3_11_r_detector.xml">
+    <detEntry lane="19353936_1" pos="27"/>
+    <detExit lane="19357365_1" pos="3"/>
+  </entryExitDetector>
+  <!-- detector 12 -->
+  <entryExitDetector id="e3_12_l" freq="3600" file="../output/pell_probe_data/e3_12_l_detector.xml">
+    <detEntry lane="19357382#0_1" pos="41"/>
+    <detEntry lane="19357382#0_2" pos="41"/>
+    <detExit lane="19353925_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_12_s" freq="3600" file="../output/pell_probe_data/e3_12_s_detector.xml">
+    <detEntry lane="19357382#0_1" pos="41"/>
+    <detEntry lane="19357382#0_2" pos="41"/>
+    <detExit lane="28772079_1" pos="2"/>
+    <detExit lane="28772079_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_12_r" freq="3600" file="../output/pell_probe_data/e3_12_r_detector.xml">
+    <detEntry lane="19357382#0_1" pos="41"/>
+    <detEntry lane="19357382#0_2" pos="41"/>
+    <detExit lane="19353932_1" pos="2"/>
+  </entryExitDetector>
+
+  <!-- connell tj max light -->
+  <!-- detector 13 -->
+  <entryExitDetector id="e3_13_s" freq="3600" file="../output/pell_probe_data/e3_13_s_detector.xml">
+    <detEntry lane="-586093495#0_1" pos="132"/>
+    <detExit lane="-586093489#1_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_13_r" freq="3600" file="../output/pell_probe_data/e3_13_r_detector.xml">
+    <detEntry lane="-586093495#0_1" pos="132"/>
+    <detExit lane="410216543_0" pos="2"/>
+    <detExit lane="410216543_1" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 14 -->
+  <entryExitDetector id="e3_14_l" freq="3600" file="../output/pell_probe_data/e3_14_l_detector.xml">
+    <detEntry lane="410216562_0" pos="34"/>
+    <detEntry lane="410216562_1" pos="34"/>
+    <detExit lane="586093495#0_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_14_r" freq="3600" file="../output/pell_probe_data/e3_14_s_detector.xml">
+    <detEntry lane="410216562_0" pos="34"/>
+    <detEntry lane="410216562_1" pos="34"/>
+    <detExit lane="-586093489#1_1" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 15 -->
+  <entryExitDetector id="e3_15_s" freq="3600" file="../output/pell_probe_data/e3_15_s_detector.xml">
+    <detEntry lane="586093489#1_1" pos="26"/>
+    <detExit lane="586093495#0_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_15_r" freq="3600" file="../output/pell_probe_data/e3_15_r_detector.xml">
+    <detEntry lane="586093489#1_1" pos="26"/>
+    <detExit lane="410216543_0" pos="2"/>
+    <detExit lane="410216543_1" pos="2"/>
+  </entryExitDetector>
+
+  <!-- SB onramp -->
+  <!-- detector 16 -->
+  <entryExitDetector id="e3_16_l" freq="3600" file="../output/pell_probe_data/e3_16_l_detector.xml">
+    <detEntry lane="203953455#2_1" pos="9"/>
+    <detEntry lane="203953455#2_2" pos="9"/>
+    <detEntry lane="203953455#2_3" pos="9"/>
+    <detExit lane="28772115_0" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_16_s" freq="3600" file="../output/pell_probe_data/e3_16_s_detector.xml">
+    <detEntry lane="203953455#2_1" pos="9"/>
+    <detEntry lane="203953455#2_2" pos="9"/>
+    <detEntry lane="203953455#2_3" pos="9"/>
+    <detExit lane="71477891_1" pos="2"/>
+    <detExit lane="71477891_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_16_r" freq="3600" file="../output/pell_probe_data/e3_16_r_detector.xml">
+    <detEntry lane="203953455#2_1" pos="9"/>
+    <detEntry lane="203953455#2_2" pos="9"/>
+    <detEntry lane="203953455#2_3" pos="9"/>
+    <detExit lane="410216581#1_0" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 17 -->
+  <entryExitDetector id="e3_17_l" freq="3600" file="../output/pell_probe_data/e3_17_l_detector.xml">
+    <detEntry lane="-410216581#1_0" pos="40"/>
+    <detExit lane="71477891_1" pos="2"/>
+    <detExit lane="71477891_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_17_s" freq="3600" file="../output/pell_probe_data/e3_17_s_detector.xml">
+    <detEntry lane="-410216581#1_0" pos="40"/>
+    <detExit lane="28772115_0" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_17_r" freq="3600" file="../output/pell_probe_data/e3_17_r_detector.xml">
+    <detEntry lane="-410216581#1_0" pos="40"/>
+    <detExit lane="71477891_1" pos="2"/>
+    <detExit lane="71477891_2" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 18 -->
+  <entryExitDetector id="e3_18_l" freq="3600" file="../output/pell_probe_data/e3_18_l_detector.xml">
+    <detEntry lane="28772079_1" pos="39"/>
+    <detEntry lane="28772079_2" pos="39"/>
+    <detExit lane="410216581#1_0" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_18_s" freq="3600" file="../output/pell_probe_data/e3_18_s_detector.xml">
+    <detEntry lane="28772079_1" pos="39"/>
+    <detEntry lane="28772079_2" pos="39"/>
+    <detExit lane="203952426#0_1" pos="2"/>
+    <detExit lane="203952426#0_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_18_r" freq="3600" file="../output/pell_probe_data/e3_18_r_detector.xml">
+    <detEntry lane="28772079_1" pos="39"/>
+    <detEntry lane="28772079_2" pos="39"/>
+    <detExit lane="19348795_0" pos="2"/>
+  </entryExitDetector>
+
+  <!-- halsey -->
+  <!-- detector 19 -->
+  <entryExitDetector id="e3_19_l" freq="3600" file="../output/pell_probe_data/e3_19_l_detector.xml">
+    <detEntry lane="-19351206#1_0" pos="299"/>
+    <detExit lane="203953455#1_1" pos="2"/>
+    <detExit lane="203953455#1_2" pos="2"/>
+    <detExit lane="203953455#1_3" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_19_r" freq="3600" file="../output/pell_probe_data/e3_19_r_detector.xml">
+    <detEntry lane="-19351206#1_0" pos="299"/>
+    <detExit lane="203952426#1_1" pos="2"/>
+    <detExit lane="203952426#1_2" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 20 -->
+  <entryExitDetector id="e3_20_l" freq="3600" file="../output/pell_probe_data/e3_20_l_detector.xml">
+    <detEntry lane="203953455#0_1" pos="87"/>
+    <detEntry lane="203953455#0_2" pos="87"/>
+    <detExit lane="19351206#1_0" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_20_s" freq="3600" file="../output/pell_probe_data/e3_20_s_detector.xml">
+    <detEntry lane="203953455#0_1" pos="87"/>
+    <detEntry lane="203953455#0_2" pos="87"/>
+    <detExit lane="203953455#1_1" pos="2"/>
+    <detExit lane="203953455#1_2" pos="2"/>
+    <detExit lane="203953455#1_3" pos="2"/>
+  </entryExitDetector>
+  <!--detector 21 -->
+  <entryExitDetector id="e3_21_s" freq="3600" file="../output/pell_probe_data/e3_21_s_detector.xml">
+    <detEntry lane="203952426#0_1" pos="93"/>
+    <detEntry lane="203952426#0_2" pos="93"/>
+    <detExit lane="203952426#1_1" pos="2"/>
+    <detExit lane="203952426#1_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_21_r" freq="3600" file="../output/pell_probe_data/e3_21_r_detector.xml">
+    <detEntry lane="203952426#0_1" pos="93"/>
+    <detEntry lane="203952426#0_2" pos="93"/>
+    <detExit lane="203952426#1_1" pos="2"/>
+    <detExit lane="203952426#1_2" pos="2"/>
+  </entryExitDetector>
+
+  <!-- offramp NB -->
+  <!-- detector 22 -->
+  <entryExitDetector id="e3_22_s" freq="3600" file="../output/pell_probe_data/e3_22_s_detector.xml">
+    <detEntry lane="28772078#2_1" pos="11"/>
+    <detEntry lane="28772078#2_2" pos="11"/>
+    <detExit lane="300729490_1" pos="2"/>
+    <detExit lane="300729490_2" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 23 -->
+  <entryExitDetector id="e3_23_l" freq="3600" file="../output/pell_probe_data/e3_23_l_detector.xml">
+    <detEntry lane="19347766_0" pos="186"/>
+    <detExit lane="71477934_1" pos="2"/>
+    <detExit lane="71477934_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_23_r" freq="3600" file="../output/pell_probe_data/e3_23_r_detector.xml">
+    <detEntry lane="19347766_0" pos="186"/>
+    <detExit lane="203953455#0_1" pos="2"/>
+    <detExit lane="203953455#0_2" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 24 -->
+  <entryExitDetector id="e3_24_s" freq="3600" file="../output/pell_probe_data/e3_24_s_detector.xml">
+    <detEntry lane="203952426#2_1" pos="9"/>
+    <detEntry lane="203952426#2_2" pos="9"/>
+    <detExit lane="71477934_1" pos="2"/>
+    <detExit lane="71477934_2" pos="2"/>
+  </entryExitDetector>
+
+  <!-- malbone girard -->
+  <!-- detector 25 -->
+  <entryExitDetector id="e3_25_l" freq="3600" file="../output/pell_probe_data/e3_25_l_detector.xml">
+    <detEntry lane="329995331#11_0" pos="121"/>
+    <detExit lane="28772078#0_1" pos="2"/>
+    <detExit lane="28772078#0_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_25_s" freq="3600" file="../output/pell_probe_data/e3_25_s_detector.xml">
+    <detEntry lane="329995331#11_0" pos="121"/>
+    <detExit lane="19358550#0_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_25_r" freq="3600" file="../output/pell_probe_data/e3_25_r_detector.xml">
+    <detEntry lane="329995331#11_0" pos="121"/>
+    <detExit lane="28077357_1" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 26 -->
+  <entryExitDetector id="e3_26_l" freq="3600" file="../output/pell_probe_data/e3_26_l_detector.xml">
+    <detEntry lane="-28077357_1" pos="288"/>
+    <detExit lane="-329995331#11_0" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_26_s" freq="3600" file="../output/pell_probe_data/e3_26_s_detector.xml">
+    <detEntry lane="-28077357_1" pos="288"/>
+    <detExit lane="28772078#0_1" pos="2"/>
+    <detExit lane="28772078#0_2" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_26_r" freq="3600" file="../output/pell_probe_data/e3_26_r_detector.xml">
+    <detEntry lane="-28077357_1" pos="288"/>
+    <detExit lane="19358550#0_1" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 27 -->
+  <entryExitDetector id="e3_27_l" freq="3600" file="../output/pell_probe_data/e3_27_l_detector.xml">
+    <detEntry lane="-19358550#0_1" pos="24"/>
+    <detExit lane="28077357_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_27_s" freq="3600" file="../output/pell_probe_data/e3_27_s_detector.xml">
+    <detEntry lane="-19358550#0_1" pos="24"/>
+    <detExit lane="-329995331#11_0" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_27_r" freq="3600" file="../output/pell_probe_data/e3_27_r_detector.xml">
+    <detEntry lane="-19358550#0_1" pos="24"/>
+    <detExit lane="28772078#0_1" pos="2"/>
+    <detExit lane="28772078#0_2" pos="2"/>
+  </entryExitDetector>
+  <!-- detector 28 -->
+  <entryExitDetector id="e3_28_l" freq="3600" file="../output/pell_probe_data/e3_28_l_detector.xml">
+    <detEntry lane="71477934_1" pos="109"/>
+    <detEntry lane="71477934_2" pos="109"/>
+    <detExit lane="19358550#0_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_28_s" freq="3600" file="../output/pell_probe_data/e3_28_s_detector.xml">
+    <detEntry lane="71477934_1" pos="109"/>
+    <detEntry lane="71477934_2" pos="109"/>
+    <detExit lane="28077357_1" pos="2"/>
+  </entryExitDetector>
+  <entryExitDetector id="e3_28_r" freq="3600" file="../output/pell_probe_data/e3_28_r_detector.xml">
+    <detEntry lane="71477934_1" pos="109"/>
+    <detEntry lane="71477934_2" pos="109"/>
+    <detExit lane="-329995331#11_0" pos="2"/>
+  </entryExitDetector>
+
+  <!-- offramp SB -->
+  <!-- detector 29 -->
+  <inductionLoop id="e1_29" freq="3600" lane="19354558#1_1" pos="27" file="../output/pell_probe_data/e1_29_detector.xml"/>
+  <!-- detector 30 -->
+  <inductionLoop id="e1_30" freq="3600" lane="-288107046#0_0" pos="227" file="../output/pell_probe_data/e1_30_detector.xml"/>
+  <!-- detector 31 -->
+  <inductionLoop id="e1_31" freq="3600" lane="288109171#1_0" pos="26" file="../output/pell_probe_data/e1_31_detector.xml"/>
+
+</additional>

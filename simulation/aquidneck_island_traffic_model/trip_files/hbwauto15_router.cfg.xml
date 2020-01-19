@@ -1,0 +1,20 @@
+<configuration>
+  <input>
+    <net-file value="../../../aquidneck_island.net.xml"/>
+    <additional-files value="../../../tazs/aquidneck_car.taz.xml, ../additionals/vehicle_types_15.add.xml"/>
+    <route-files value= "hbwauto15.trips.rou.xml"/>
+    <weight-files value="../additionals/navsta_edge_weights.add.xml, ../additionals/edge_weights.add.xml"/>
+  </input>
+  <output>
+    <output-file value="../route_files/hbwauto15.rou.xml"/>
+  </output>
+  <processing>
+    <repair value="true"/>
+    <repair.from value="true"/>
+    <routing-threads value="4"/>
+    <remove-loops value="true"/>
+  </processing>
+  <report>
+    <ignore-errors value="true"/>
+  </report>
+</configuration>
