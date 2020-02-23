@@ -12,7 +12,7 @@
     <vehroute-output value="output/ai15_run1/ai_simulation_vehroutes.xml"/>
     <vehroute-output.incomplete value="true"/>
     <save-state.times value="18000, 36000, 54000"/>
-    <save-state.prefix value="output/ai15_run0/ai15_run1_state"/>
+    <save-state.prefix value="output/ai15_run1/ai15_run1_state"/>
   </output>
   <time>
     <begin value="0"/>
