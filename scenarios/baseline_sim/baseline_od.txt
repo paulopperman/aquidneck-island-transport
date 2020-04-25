@@ -1,0 +1,25 @@
+$OR;D2
+* From-Time To-Time
+0.00  1.00
+* Factor
+100
+* this matrix is for network testing purposes.
+*From         to                factor
+americas_cup  bellevue          1.0
+americas_cup  bliss             1.0
+americas_cup  bowery            1.0
+americas_cup  warner            1.0
+bellevue      bliss             1.0
+bellevue      bowery            1.0
+bliss         broadway_business 1.0
+the_point     malbone           1.0
+the_point     kay               1.0
+fifth_ward    the_point         1.0
+bowery        the_point         1.0
+warner        ocean_drive       1.0
+miantonomi    the_point         1.0
+historic_hill malbone           1.0
+miantonomi    broadway_business 1.0
+bowery        off_island_west   1.0
+warner        off_island_north  1.0
+malbone       lower_thames      1.0

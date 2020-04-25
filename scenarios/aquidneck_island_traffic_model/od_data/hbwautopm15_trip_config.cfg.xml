@@ -1,0 +1,26 @@
+<configuration>
+  <input>
+    <taz-files value="../../../tazs/aquidneck_car.taz.xml"/>
+    <od-matrix-files value="hbwautopm15.txt"/>
+  </input>
+  <output>
+    <output-file value="../trips/hbwautopm15.trips.rou.xml"/>
+  </output>
+  <processing>
+    <different-source-sink value="true"/>
+    <vtype value="hbwCar"/>
+    <prefix value="hbwpm"/>
+    <timeline.day-in-hours value="true"/>
+    <!-- peak evening commute between 1600 and 1700 -->
+    <timeline value="0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.01, 0.3, 0.9, 1, 0.7, 0.5, 0.02, 0.001, 0.001, 0.001, 0.001"/>
+  </processing>
+<!--
+  <report>
+    <error-log value="../logs/hbwautopm15_trip_generator_log.txt"/>
+  </report>
+  <random>
+    <random value="true"/>
+    <seed value="23432"/>
+  </random>
+-->
+</configuration>

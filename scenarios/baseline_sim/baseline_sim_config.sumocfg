@@ -1,0 +1,12 @@
+<configuration>
+  <input>
+    <net-file value="../../aquidneck_island.net.xml"/>
+    <route-files value="baseline_sim_trips.xml"/>
+  </input>
+  <output>
+    <tripinfo-output value="output/baseline_tripinfo.xml"/>
+  </output>
+  <report>
+    <error-log value="simulation_errors.txt"/>
+  </report>
+</configuration>

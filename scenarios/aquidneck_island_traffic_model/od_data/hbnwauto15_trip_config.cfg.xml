@@ -1,0 +1,25 @@
+<configuration>
+  <input>
+    <taz-files value="../../../tazs/aquidneck_car.taz.xml"/>
+    <od-matrix-files value="hbnwauto15.txt"/>
+  </input>
+  <output>
+    <output-file value="../trip_files/hbnwauto15.trips.rou.xml"/>
+  </output>
+  <processing>
+    <different-source-sink value="true"/>
+    <vtype value="hbnwCar"/>
+    <prefix value="hbnw"/>
+    <timeline.day-in-hours value="true"/>
+    <timeline value="0.1, 0.05, 0.01, 0.01, 0.2, 0.2, 0.2, 0.1, 0.1, 0.4, 0.8, 0.8, 0.9, 0.8, 0.7, 0.6, 0.6, 1, 1, 1, 1, 0.8, 0.4, 0.1"/>
+  </processing>
+<!--
+  <report>
+    <error-log value="../logs/trip_generator_log.txt"/>
+  </report>
+  <random>
+    <random value="false"/>
+    <seed value="23432"/>
+  </random>
+-->
+</configuration>

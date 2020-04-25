@@ -1,0 +1,5 @@
+<additionals>
+  <!-- network measurements -->
+  <edgeData id="edgeTraffic" freq="3600" file="../output/hourly_edge_traffic_data.xml"/>
+  <edgeData id="edgeEmissions" type="emissions" freq="3600" file="../output/hourly_edge_emissions_data.xml"/>
+</additionals>

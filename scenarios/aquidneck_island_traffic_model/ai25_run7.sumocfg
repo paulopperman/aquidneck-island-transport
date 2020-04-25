@@ -1,0 +1,38 @@
+<configuration>
+  <input>
+    <net-file value="../../aquidneck_island.net.xml"/>
+    <route-files value="route_files/hbnwauto25_run7.rou.xml, route_files/hbwauto25_run7.rou.xml, route_files/truck25_run7.rou.xml, route_files/nhbauto25_run7.rou.xml"/>
+    <additional-files value="../../aquidneck_island_polys.pol.xml, additionals/navsta_gate_closures.add.xml, additionals/simulation_measurements.add.xml, additionals/bridge_calibrators.add.xml, additionals/pell_bridge_detectors.add.xml"/>
+    <!-- <additional-files value="../../aquidneck_island_polys.pol.xml, additionals/navsta_gate_closures.add.xml, additionals/simulation_measurements.add.xml, additionals/bridge_calibrators.add.xml"/> -->
+    <weight-files value="additionals/navsta_edge_weights.add.xml, additionals/edge_weights.add.xml"/>
+  </input>
+  <output>
+    <tripinfo-output value="output/ai25_run7/ai_simulation_tripinfo.xml"/>
+    <summary-output value="output/ai25_run7/ai_simulation_summary.xml"/>
+    <vehroute-output value="output/ai25_run7/ai_simulation_vehroutes.xml"/>
+    <vehroute-output.incomplete value="true"/>
+    <save-state.times value="18000, 36000, 54000"/>
+    <save-state.prefix value="output/ai25_run7/ai25_run7_state"/>
+  </output>
+  <time>
+    <begin value="0"/>
+    <end value="90000"/>
+  </time>
+  <processing>
+    <threads value="1"/>
+    <max-depart-delay value="1000"/>
+    <lateral-resolution value="1.2"/>
+    <scale value="1.0"/>
+  </processing>
+  <routing>
+    <device.rerouting.probability value="0.7"/>
+    <device.rerouting.period value="300"/>
+    <device.rerouting.threads value="0"/>
+  </routing>
+  <report>
+    <error-log value="logs/ai25_run7_errors.txt"/>
+  </report>
+  <random>
+    <seed value="1635"/>
+  </random>
+</configuration>

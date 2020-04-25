@@ -32,3 +32,6 @@ Run the `netdiff.py` tool to update the patch files in the `patches/` directory 
 
 ## Running a Simulation
 A sample simulation can be built using the `newport_neighborhoods.xml` traffic assignment zones and `OD2TRIPS`. Build the trip configuration file by calling `OD2TRIPS -c baseline_trip_config.cfg.xml`.  Then run `baseline_sim_config.sumocfg` in SUMO or SUMO-GUI.
+
+### Using Docker
+From this folder, run ```docker run -it --name aquidneck --mount type=bind,source="$(pwd),target=/model paulopperman/sumo-docker:latest```
