@@ -1,0 +1,19 @@
+<configuration>
+  <input>
+    <taz-files value="../../tazs/newport_neighborhoods.xml"/>
+    <od-matrix-files value="baseline_od.txt"/>
+  </input>
+  <output>
+    <output-file value="baseline_sim_trips.xml"/>
+  </output>
+  <processing>
+    <different-source-sink value="true"/>
+  </processing>
+  <report>
+    <error-log value="router_errors.txt"/>
+  </report>
+  <random>
+    <random value="false"/>
+    <seed value="23423"/>
+  </random>
+</configuration>

@@ -1,0 +1,10 @@
+<additional>
+  <route id="sak_nb" edges="42880194#2 441114895 42880580 42880572 92384039#0 92384039#1 92384039#2 150583541 150583543#0 150583543#1 92367190" output="../output/sakonnet_calibrator.xml"/>
+
+  <calibrator id="sakonnet_nb_calibrator" edge="42880194#2" pos="0">
+    <flow begin="0" end="18000" route="sak_nb" speed="24"/>
+    <flow begin="18000" end="32000" route="sak_nb" speed="24"/>
+    <flow begin="32000" end="50000" route="sak_nb" speed="24"/>
+    <flow begin="50000" end="82400" route="sak_nb" speed="24"/>
+  </calibrator>
+</additional>

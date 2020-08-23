@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/15/20 16:32:49 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="D:\SUMO\aquidneck-island\aquidneck_island.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\SUMO\aquidneck-island\aquidneck_island.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="D:\SUMO\aquidneck-island\simulation\aquidneck_island_traffic_model\additionals\ridot_2019_short_term_counters.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<detectors xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <e1Detector id="199000_EB" lane="617518142#14_1" pos="158.48" freq="900.00" name="199000_EB" file="../output/ridot_detectors/199000_EB.xml"/>
+    <e1Detector id="199000_WB" lane="-617518142#14_1" pos="24.83" freq="900.00" name="199000_WB" file="../output/ridot_detectors/199000_WB.xml"/>
+    <e1Detector id="199002_NB" lane="-19360551#0_0" pos="483.70" freq="900.00" name="199002_NB" file="../output/ridot_detectors/199002_NB.xml"/>
+    <e1Detector id="199002_SB" lane="19360551#0_0" pos="196.92" freq="900.00" name="199002_SB" file="../output/ridot_detectors/199002_SB.xml"/>
+    <e1Detector id="199003_SB" lane="596595953#6_1" pos="44.77" freq="900.00" name="199003_SB" file="../output/ridot_detectors/199003_SB.xml"/>
+    <e1Detector id="199003_NB" lane="-596595953#6_1" pos="43.78" freq="900.00" name="199003_NB" file="../output/ridot_detectors/199003_NB.xml"/>
+    <e1Detector id="199006_NB" lane="-19361156#0_0" pos="396.72" freq="900.00" name="199006_NB" file="../output/ridot_detectors/199006_NB.xml"/>
+    <e1Detector id="199006_SB" lane="19361156#0_0" pos="541.55" freq="900.00" name="199006_SB" file="../output/ridot_detectors/199006_SB.xml"/>
+    <e1Detector id="199008_NB" lane="617518142#0_1" pos="58.06" freq="900.00" name="199008_NB" file="../output/ridot_detectors/199008_NB.xml"/>
+    <e1Detector id="199008_SB" lane="-617518142#0.71_1" pos="39.49" freq="900.00" name="199008_SB" file="../output/ridot_detectors/199008_SB.xml"/>
+    <e1Detector id="199013_NB" lane="-19357284#2_1" pos="54.51" freq="900.00" name="199013_NB" file="../output/ridot_detectors/199013_NB.xml"/>
+    <e1Detector id="199013_SB" lane="19357284#2_1" pos="19.11" freq="900.00" name="199013_SB" file="../output/ridot_detectors/199013_SB.xml"/>
+    <e1Detector id="199015_NB" lane="-19354086#3_1" pos="207.93" freq="900.00" name="199015_NB" file="../output/ridot_detectors/199015_NB.xml"/>
+    <e1Detector id="199015_SB" lane="19354086#3_1" pos="281.57" freq="900.00" name="199015_SB" file="../output/ridot_detectors/199015_SB.xml"/>
+    <e1Detector id="199016_EB" lane="19358405#1_0" pos="80.50" freq="900.00" name="199016_EB" file="../output/ridot_detectors/199016_EB.xml"/>
+    <e1Detector id="199016_WB" lane="-19358405#1_0" pos="95.94" freq="900.00" name="199016_WB" file="../output/ridot_detectors/199016_WB.xml"/>
+    <e1Detector id="199018_NB" lane="19353368#3_1" pos="46.43" freq="900.00" name="199018_NB" file="../output/ridot_detectors/199018_NB.xml"/>
+    <e1Detector id="199018_SB" lane="-19353368#3_1" pos="172.69" freq="900.00" name="199018_SB" file="../output/ridot_detectors/199018_SB.xml"/>
+    <e1Detector id="219000_NB" lane="-19351857#13_0" pos="228.52" freq="900.00" name="219000_NB" file="../output/ridot_detectors/219000_NB.xml"/>
+    <e1Detector id="219000_SB" lane="19351857#13_0" pos="21.31" freq="900.00" name="219000_SB" file="../output/ridot_detectors/219000_SB.xml"/>
+    <e1Detector id="219001_1_NB" lane="-19356382#7_1" pos="70.63" freq="900.00" name="219001_1_NB" file="../output/ridot_detectors/219001_1_NB.xml"/>
+    <e1Detector id="219001_1_SB" lane="19356382#7_1" pos="29.13" freq="900.00" name="219001_1_SB" file="../output/ridot_detectors/219001_1_SB.xml"/>
+    <e1Detector id="219001_2_NB" lane="-19356382#7_2" pos="70.76" freq="900.00" name="219001_2_NB" file="../output/ridot_detectors/219001_2_NB.xml"/>
+    <e1Detector id="219001_2_SB" lane="19356382#7_2" pos="28.95" freq="900.00" name="219001_2_SB" file="../output/ridot_detectors/219001_2_SB.xml"/>
+    <e1Detector id="219002" lane="19352924#12_1" pos="29.96" freq="900.00" name="219002" file="../output/ridot_detectors/219002.xml"/>
+    <e1Detector id="219004" lane="28077448_0" pos="225.19" freq="900.00" name="219004" file="../output/ridot_detectors/219004.xml"/>
+    <e1Detector id="219005_EB" lane="617523920#1_1" pos="63.69" freq="900.00" name="219005_EB" file="../output/ridot_detectors/219005_EB.xml"/>
+    <e1Detector id="219005_WB" lane="-617523920#1_1" pos="84.99" freq="900.00" name="219005_WB" file="../output/ridot_detectors/219005_WB.xml"/>
+    <e1Detector id="219006" lane="288109171#0_0" pos="12.03" freq="900.00" name="219006" file="../output/ridot_detectors/219006.xml"/>
+    <e1Detector id="219008_SB" lane="-19357319#4_0" pos="848.16" freq="900.00" name="219008_SB" file="../output/ridot_detectors/219008_SB.xml"/>
+    <e1Detector id="219008_NB" lane="19357319#4_0" pos="29.77" freq="900.00" name="219008_NB" file="../output/ridot_detectors/219008_NB.xml"/>
+    <e1Detector id="219011" lane="300729487_0" pos="95.12" freq="900.00" name="219011" file="../output/ridot_detectors/219011.xml"/>
+    <e1Detector id="219012_NB" lane="65356877#0_1" pos="208.66" freq="900.00" name="219012_NB" file="../output/ridot_detectors/219012_NB.xml"/>
+    <e1Detector id="219012_SB" lane="-65356877#0_0" pos="65.49" freq="900.00" name="219012_SB" file="../output/ridot_detectors/219012_SB.xml"/>
+    <e1Detector id="219013_NB" lane="-516917086#8_1" pos="39.58" freq="900.00" name="219013_NB" file="../output/ridot_detectors/219013_NB.xml"/>
+    <e1Detector id="219013_SB" lane="516917086#8_1" pos="28.81" freq="900.00" name="219013_SB" file="../output/ridot_detectors/219013_SB.xml"/>
+    <e1Detector id="219014" lane="261166138#6_1" pos="10.54" freq="900.00" name="219014" file="../output/ridot_detectors/219014.xml"/>
+    <e1Detector id="219015_NB" lane="661061478#1_1" pos="42.27" freq="900.00" name="219015_NB" file="../output/ridot_detectors/219015_NB.xml"/>
+    <e1Detector id="219015_SB" lane="-661061478#1_1" pos="84.43" freq="900.00" name="219015_WB" file="../output/ridot_detectors/219015_SB.xml"/>
+    <e1Detector id="219016_NB" lane="617265279#0_1" pos="157.82" freq="900.00" name="219016_NB" file="../output/ridot_detectors/219016_NB.xml"/>
+    <e1Detector id="219016_SB" lane="-617265279#0_1" pos="99.00" freq="900.00" name="219016_SB" file="../output/ridot_detectors/219016_SB.xml"/>
+    <e1Detector id="219017_NB" lane="-492477207#3_1" pos="31.31" freq="900.00" name="219017_NB" file="../output/ridot_detectors/219017_NB.xml"/>
+    <e1Detector id="219017_SB" lane="492477207#3_1" pos="25.60" freq="900.00" name="219017_SB" file="../output/ridot_detectors/219017_SB.xml"/>
+    <e1Detector id="219018" lane="610966930#4.45_1" pos="47.70" freq="900.00" name="219018" file="../output/ridot_detectors/219018.xml"/>
+    <e1Detector id="219021_NB" lane="596612979#2_1" pos="176.97" freq="900.00" name="219021_NB" file="../output/ridot_detectors/219021_NB.xml"/>
+    <e1Detector id="219021_SB" lane="-596612979#2_1" pos="192.36" freq="900.00" name="219021_SB" file="../output/ridot_detectors/219021_SB.xml"/>
+    <e1Detector id="219023_1_NB" lane="19353732#0_1" pos="94.98" freq="900.00" name="219023_1_NB" file="../output/ridot_detectors/219023_1_NB.xml"/>
+    <e1Detector id="219023_1_SB" lane="71472729#6_1" pos="63.73" freq="900.00" name="219023_1_SB" file="../output/ridot_detectors/219023_1_SB.xml"/>
+    <e1Detector id="219023_2_NB" lane="19353732#0_2" pos="95.08" freq="900.00" name="219023_2_NB" file="../output/ridot_detectors/219023_2_NB.xml"/>
+    <e1Detector id="219023_2_SB" lane="71472729#6_2" pos="63.77" freq="900.00" name="219023_2_SB" file="../output/ridot_detectors/219023_2_SB.xml"/>
+    <e1Detector id="219024_NB" lane="-28077306#1_1" pos="36.01" freq="900.00" name="219024_NB" file="../output/ridot_detectors/219024_NB.xml"/>
+    <e1Detector id="219024_SB" lane="28077306#1_1" pos="38.54" freq="900.00" name="219024_SB" file="../output/ridot_detectors/219024_SB.xml"/>
+    <e1Detector id="219025_NB" lane="19354558#1_1" pos="14.12" freq="900.00" name="219025_NB" file="../output/ridot_detectors/219025_NB.xml"/>
+    <e1Detector id="219025_SB" lane="-19354558#1_0" pos="25.90" freq="900.00" name="219025_SB" file="../output/ridot_detectors/219025_SB.xml"/>
+    <e1Detector id="219027_NB" lane="-19353686#4_1" pos="30.78" freq="900.00" name="219027_NB" file="../output/ridot_detectors/219027_NB.xml"/>
+    <e1Detector id="219027_SB" lane="19353686#4_1" pos="36.35" freq="900.00" name="219027_SB" file="../output/ridot_detectors/219027_SB.xml"/>
+    <e1Detector id="219030" lane="492477208#3_1" pos="35.22" freq="900.00" name="219030" file="../output/ridot_detectors/219030.xml"/>
+    <e1Detector id="219031_NB" lane="19351906_1" pos="87.50" freq="900.00" name="219031_NB" file="../output/ridot_detectors/219031_NB.xml"/>
+    <e1Detector id="219031_SB" lane="-19351906_1" pos="69.23" freq="900.00" name="219031_SB" file="../output/ridot_detectors/219031_SB.xml"/>
+    <e1Detector id="219032_NB" lane="-19353092#3_1" pos="46.24" freq="900.00" name="219032_NB" file="../output/ridot_detectors/219032_NB.xml"/>
+    <e1Detector id="219032_SB" lane="19353092#3_1" pos="72.61" freq="900.00" name="219032_SB" file="../output/ridot_detectors/219032_SB.xml"/>
+    <e1Detector id="219033_NB" lane="19358534#1_1" pos="33.55" freq="900.00" name="219033_NB" file="../output/ridot_detectors/219033_NB.xml"/>
+    <e1Detector id="219033_SB" lane="-19358534#1_1" pos="33.61" freq="900.00" name="219033_SB" file="../output/ridot_detectors/219033_SB.xml"/>
+    <e1Detector id="219034_NB" lane="-19356382#34_1" pos="50.47" freq="900.00" name="219034_NB" file="../output/ridot_detectors/219034_NB.xml"/>
+    <e1Detector id="219034_SB" lane="19356382#34_1" pos="11.53" freq="900.00" name="219034_SB" file="../output/ridot_detectors/219034_SB.xml"/>
+    <e1Detector id="219035_NB" lane="-19356233#7_1" pos="82.88" freq="900.00" name="219035_NB" file="../output/ridot_detectors/219035_NB.xml" friendlyPos="1"/>
+    <e1Detector id="219035_SB" lane="19356233#7_1" pos="15.59" freq="900.00" name="219035_SB" file="../output/ridot_detectors/219035_SB.xml" friendlyPos="1"/>
+    <e1Detector id="219036_NB" lane="203953456#5_1" pos="88.67" freq="900.00" name="219036_NB" file="../output/ridot_detectors/219036_NB.xml"/>
+    <e1Detector id="219036_SB" lane="-203953456#5_1" pos="143.60" freq="900.00" name="219036_SB" file="../output/ridot_detectors/219036_SB.xml"/>
+    <e1Detector id="279008_NB" lane="19358935#0_1" pos="91.03" freq="900.00" name="279008_NB" file="../output/ridot_detectors/279008_NB.xml"/>
+    <e1Detector id="279008_SB" lane="-19358935#0_1" pos="236.07" freq="900.00" name="279008_SB" file="../output/ridot_detectors/279008_SB.xml"/>
+    <e1Detector id="279011_NB" lane="19354982#5_0" pos="12.37" freq="900.00" name="279011_NB" file="../output/ridot_detectors/279011_NB.xml"/>
+    <e1Detector id="279011_SB" lane="-19354982#5_0" pos="416.46" freq="900.00" name="279011_SB" file="../output/ridot_detectors/279011_SB.xml"/>
+    <e1Detector id="279013" lane="19350356#2_1" pos="159.24" freq="900.00" name="279013" file="../output/ridot_detectors/279013.xml"/>
+    <e1Detector id="279015_NB" lane="19354982#17_0" pos="548.22" freq="900.00" name="279015_NB" file="../output/ridot_detectors/279015_NB.xml"/>
+    <e1Detector id="279015_SB" lane="-19354982#17_0" pos="204.11" freq="900.00" name="279015_SB" file="../output/ridot_detectors/279015_SB.xml"/>
+    <e1Detector id="279016_SB" lane="-19359906#0_1" pos="76.03" freq="900.00" name="279016_SB" file="../output/ridot_detectors/279016_SB.xml"/>
+    <e1Detector id="279016_NB" lane="19359906#0_1" pos="83.59" freq="900.00" name="279016_NB" file="../output/ridot_detectors/279016_NB.xml"/>
+</detectors>

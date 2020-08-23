@@ -1,0 +1,8 @@
+<meandata>
+  <interval begin="18000" end="35000">
+    <!-- Maple delay -->
+    <edge id="-19357284#0" traveltime="120"/>
+    <edge id="-19357284#1" traveltime="150"/>
+    <edge id="-19357284#2" traveltime="90"/>
+  </interval>
+</meandata>
