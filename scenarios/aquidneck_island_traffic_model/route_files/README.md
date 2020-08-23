@@ -1,0 +1,2 @@
+# Route Files
+This directory is for storing route definition files created by DUAROUTER from the trip definitions in `../trips/`.  The route files are read by the `*.sumocfg` scenario configuration files.

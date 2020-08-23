@@ -3,8 +3,6 @@ import subprocess
 # names of od datafiles
 od_sets = ['hbnwauto15',
             'hbwauto15',
-            # 'hbwautoam15',
-            # 'hbwautopm15',
             'nhbauto15',
             'truck15',
             'hbnwauto25',

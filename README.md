@@ -1,4 +1,4 @@
-# SUMO Model of Aquidneck Island
+# Aquidneck Island Transport Model
 This repository contains a network model around Aquidneck Island for use in [SUMO](https://sumo.dlr.de/wiki/Simulation_of_Urban_MObility_-_Wiki) simulations.
 
 ![network overview](images/netedit_overview_map.png)
@@ -6,6 +6,29 @@ This repository contains a network model around Aquidneck Island for use in [SUM
 ![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)  This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 This code base is designed to allow customization of the SUMO network based on OpenStreetMap data, in such a way that it can be reconstituted from scratch using `netconvert`.
+
+## Model Features
+The Aquidneck Island Transport Model is a microsimulation model including a model of the transportation network and 
+calibrated user demand scenarios built from the Rhode Island Statewide Model and state traffic counter data.  The model
+includes accurate lane behaviors, and work is ongoing to accurately model the traffic signal programs.  The model also includes
+specific local features, such as routing restrictions and gate behaviors at Naval Station Newport, and shoulder passing on certain streets.
+
+### Planned Updates
+This model is under continual development to incorporate more features to realistically model traffic on the island. Some planned future features include:
+* Public transportation routes
+* Pedestrian user demand and multi-modal trips
+* Parking and parking-searching traffic demand
+
+## Running a Simulation
+Before running the calibrated Aquidneck Island Traffic Model scenarios, the trip and route files need to be generated.
+In `scenarios/aquidneck_island_traffic_model/` run `ai_tripgen.py` to generate the intermediate files for simulation. 
+Once the files have been computed, the simulation can be run using one of the configuration files in the scenario directory.
+General simulation results are written by default, but additional data can be obtained by modifying the configuration file per the SUMO [documentation](https://sumo.dlr.de/docs/sumo.html).
+
+### Using Docker
+From this folder, run 
+```docker run -it --name aquidneck --mount type=bind,source="$(pwd),target=/model paulopperman/sumo-docker:latest```
+and use the command line interface to run the desired simulation.
 
 ## Mapping Workflow
 
@@ -30,8 +53,3 @@ netconvert --sumo-net-file baseline.net.xml -n patches\aquidneck_island_diff.nod
 Run the `netdiff.py` tool to update the patch files in the `patches/` directory prior to merging any network changes into the `master` branch.
 
 
-## Running a Simulation
-A sample simulation can be built using the `newport_neighborhoods.xml` traffic assignment zones and `OD2TRIPS`. Build the trip configuration file by calling `OD2TRIPS -c baseline_trip_config.cfg.xml`.  Then run `baseline_sim_config.sumocfg` in SUMO or SUMO-GUI.
-
-### Using Docker
-From this folder, run ```docker run -it --name aquidneck --mount type=bind,source="$(pwd),target=/model paulopperman/sumo-docker:latest```
