@@ -1,0 +1,31 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+div.outer#header_wrap {
+  background: url("../img/wash_sq_snapshot.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: steelblue;
+  background-blend-mode: darken;
+}
+
+div#footer_wrap {
+  background-color: steelblue;
+}
+
+h1#project_title, h2#project_tagline {
+  color: white;
+  text-shadow: 0 0 3px black;
+}
+
+h1#project_title {
+  font-size: 42px;
+}
+
+img#full_map {
+  max-width: 100%;
+  height: auto;
+}
