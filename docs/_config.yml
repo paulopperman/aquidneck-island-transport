@@ -23,7 +23,7 @@ email: paul@newportdataproject.org
 description: >- # this means to ignore newlines until "baseurl:"
   A model for simulating multi-modal transportation networks on Aquidneck Island.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://paulopperman.github.io/aquidneck-island-transport" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://paulopperman.github.io/aquidneck-island-transport" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  paulopperman
 
 # defaults
