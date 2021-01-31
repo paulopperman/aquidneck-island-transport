@@ -1,0 +1,9 @@
+<configuration>
+  <input>
+    <taz-files value="../../../tazs/aquidneck_car.taz.xml"/>
+  </input>
+  <processing>
+    <different-source-sink value="true"/>
+    <prefix value="training_runner"/>
+  </processing>
+</configuration>
