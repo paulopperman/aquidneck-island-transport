@@ -36,7 +36,7 @@ num_factors = len(od_pairs)
 samples = 1000  # number of samples per factor for the design matrix.  equals the number of independent sumo simulations
 design_matrix = lhs(num_factors, samples=samples)  # latin hypercube sampled design matrix. criterion selection adds significant time
 
-# weight the design matrix based on max aadt flow from a taz
+# relatively weight the design matrix based on max aadt flow from a taz
 taz_weights = [527.781616, 325.73761, 563.544373, 38.137405, 33.834393, 76.295921, 59.563725, 32.558113, 37.900215,
 			   24.886068, 39.549694, 74.731361, 175.710098, 77.775589, 55.181942, 115.814072, 83.126404, 85.860756,
 			   131.306976, 41.893452, 19.646582, 22.24085, 563.544373, 27.158676, 169.253586, 1,
@@ -50,10 +50,16 @@ taz_weights = [527.781616, 325.73761, 563.544373, 38.137405, 33.834393, 76.29592
 
 matrix_weights = np.array(taz_weights).repeat(len(taz_ids))  # upsample array to line up with od pairs
 
-scaled_matrix = matrix_weights * design_matrix  # scale the design matrix
+od_scale = 0.08  # scale matrix
+
+scaled_matrix = od_scale * matrix_weights * design_matrix  # scale the design matrix
+
+# remove internal flows from boundary tazs
+scaled_matrix[:, 0] = np.zeros(samples)
+scaled_matrix[:, 85] = np.zeros(samples)
+scaled_matrix[:, 170] = np.zeros(samples)
 
 # write runs to matrix files
 for i in range(samples):
 	sample_dict = dict(zip(od_pairs, scaled_matrix[i, :]))
-	write_od_file(sample_dict, "od_sample_{:0>4d}.txt".format(i), 0.25)
-
+	write_od_file(sample_dict, "od_sample_{:0>4d}.txt".format(i))

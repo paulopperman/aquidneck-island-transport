@@ -1,0 +1,22 @@
+<configuration>
+    <input>
+        <net-file value="../../aquidneck_island.net.xml"/>
+        <weight-files value="../../scenarios/aquidneck_island_traffic_model/additionals/navsta_edge_weights.add.xml, ../../scenarios/aquidneck_island_traffic_model/additionals/edge_weights.add.xml"/>
+        <additional-files value="detectors/ridot_2019_short_term_counters.add.xml, detectors/ridot_continuous_detectors.add.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="7200"/>
+    </time>
+    <processing>
+        <threads value="1"/>
+        <max-depart-delay value="100"/>
+        <lateral-resolution value="1.2"/>
+        <scale value="1.0"/>
+    </processing>
+    <routing>
+        <device.rerouting.probability value="0.7"/>
+        <device.rerouting.period value="300"/>
+        <device.rerouting.threads value="0"/>
+    </routing>
+</configuration>
