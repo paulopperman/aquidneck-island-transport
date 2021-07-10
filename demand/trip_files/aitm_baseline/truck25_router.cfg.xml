@@ -1,0 +1,20 @@
+<configuration>
+  <input>
+    <net-file value="../../../network/aquidneck_island.net.xml"/>
+    <additional-files value="../../tazs/aitm_baseline/aquidneck_car.taz.xml, ../../vehicle_types/aitm_baseline/vehicle_types_25.add.xml"/>
+    <!-- <route-files value= "hbnwauto15.trips.rou.xml"/> -->
+    <weight-files value="../../../network/additionals/edge_weights/aitm_baseline/navsta_edge_weights.add.xml, ../../../network/additionals/edge_weights/aitm_baseline/edge_weights.add.xml"/>
+  </input>
+  <output>
+    <!-- <output-file value="../routes/hbnwauto15.rou.xml"/> -->
+  </output>
+  <processing>
+    <repair value="true"/>
+    <repair.from value="true"/>
+    <routing-threads value="4"/>
+    <remove-loops value="true"/>
+  </processing>
+  <report>
+    <ignore-errors value="true"/>
+  </report>
+</configuration>

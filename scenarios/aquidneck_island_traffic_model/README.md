@@ -11,15 +11,15 @@ The routes computed from the RISM OD matrices can be calibrated using the calibr
 
 ```
 python <repo_directory>/tools/modifiedRouteSampler.py \
-    -r ../scenarios/aquidneck_island_traffic_model/route_files/ai15_run0.rou.xml \
-    --edgedata-files ../scenarios/aquidneck_island_traffic_model/calibration/weekday_survey_2019.xml \
+    -r ../demand/route_files/aitm_baseline/ai15_run0.rou.xml \
+    --edgedata-files ../demand/calibration_data/aitm_baseline/weekday_survey_2019.xml \
     --optimize 20 \
     --optimize-input \
     -a "type='hbnwCar'" \
     --verbose \
     --write-route-ids \
     --mismatch-output ../scenarios/aquidneck_island_traffic_model/logs/calibration_logs.txt \
-    -o ../scenarios/aquidneck_island_traffic_model/route_files/ai15_run0_weekday_calibrated.xml
+    -o ../demand/route_files/aitm_baseline/ai15_run0_weekday_calibrated.xml
 ```
 
 ## Output processing
