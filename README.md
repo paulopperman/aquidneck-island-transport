@@ -19,7 +19,7 @@ This model is under continual development to incorporate more features to realis
 * Parking and parking-searching traffic demand
 
 ## Running a Simulation
-*Model currently working in SUMO v1.9.0*  
+*Model currently working in SUMO v1.11.0*  
 Before running the calibrated Aquidneck Island Traffic Model scenarios, the trip and route files need to be generated.
 In `demand/scripts/` run `ai_model_tripgen.py` to generate the intermediate files for simulation. 
 Once the files have been computed, the simulation can be run using one of the configuration files in the scenario directory.
