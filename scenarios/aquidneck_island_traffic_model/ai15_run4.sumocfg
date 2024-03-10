@@ -1,10 +1,9 @@
 <configuration>
   <input>
-    <net-file value="../../aquidneck_island.net.xml"/>
-    <route-files value="route_files/hbnwauto15_run4.rou.xml, route_files/hbwauto15_run4.rou.xml, route_files/truck15_run4.rou.xml, route_files/nhbauto15_run4.rou.xml"/>
-    <additional-files value="../../aquidneck_island_polys.pol.xml, additionals/navsta_gate_closures.add.xml, additionals/simulation_measurements.add.xml, additionals/bridge_calibrators.add.xml, additionals/pell_bridge_detectors.add.xml"/>
-    <!-- <additional-files value="../../aquidneck_island_polys.pol.xml, additionals/navsta_gate_closures.add.xml, additionals/simulation_measurements.add.xml, additionals/bridge_calibrators.add.xml"/> -->
-    <weight-files value="additionals/navsta_edge_weights.add.xml, additionals/edge_weights.add.xml"/>
+    <net-file value="../../network/aquidneck_island.net.xml"/>
+    <route-files value="../../demand/route_files/aitm_baseline/hbnwauto15_run4.rou.xml, ../../demand/route_files/aitm_baseline/hbwauto15_run4.rou.xml, ../../demand/route_files/aitm_baseline/truck15_run4.rou.xml, ../../demand/route_files/aitm_baseline/nhbauto15_run4.rou.xml"/>
+    <additional-files value="../../network/additionals/polygons/aquidneck_island_polys.pol.xml, ../../network/additionals/navsta_gate_closures.add.xml, measurements/simulation_measurements.add.xml"/>
+    <weight-files value="../../network/additionals/edge_weights/aitm_baseline/navsta_edge_weights.add.xml, ../../network/additionals/edge_weights/aitm_baseline/edge_weights.add.xml"/>
   </input>
   <output>
     <tripinfo-output value="output/ai15_run4/ai_simulation_tripinfo.xml"/>
