@@ -4,5 +4,10 @@
     <edge id="-19357284#0" traveltime="120"/>
     <edge id="-19357284#1" traveltime="150"/>
     <edge id="-19357284#2" traveltime="90"/>
+    <!-- Poplar St -->
+    <edge id="19355479#1" traveltime="60"/>
+  </interval>
+  <interval begin="50000" end="70000">
+    <edge id="19355479#1" traveltime="60"/>
   </interval>
 </meandata>
