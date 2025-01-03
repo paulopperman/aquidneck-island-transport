@@ -8,6 +8,8 @@ for each of the main vehicular demand types in the RISM:
 * **Non-Home-Based** *(NHBW)* - Trips between locations other than a residence
 * **Truck** *(Truck)* - Trips for commercial truck traffic
 
+Bridge-to-bridge traffic is estimated as a scaled proportion of trips between aggregate zones served by each bridge.
+
 Trip definitions can be created by running the `OD2TRIPS` tool using a command like:  
 ```
 od2trips -c od_data/<scenario>_trip_config.cfg.xml -o trip_files/<scenario>_run<run_number>.trips.rou.xml --error-log logs/<scenario>_run<run_number>_od2trips_errors.txt --seed <random_seed>
