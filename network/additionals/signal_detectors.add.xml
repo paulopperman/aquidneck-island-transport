@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-01-09 18:09:09 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- Detectors -->
+    <inductionLoop id="e1_0" lane="570938686#5.75_1" pos="106.41" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_1" lane="570938686#5.75_2" pos="106.55" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_10" lane="-661055461#0.49_3" pos="97.30" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_11" lane="-661055461#0.49_2" pos="97.41" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_12" lane="-661055461#0.49_1" pos="96.93" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_13" lane="-440891633_3" pos="67.16" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_14" lane="-440891633_2" pos="66.67" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_15" lane="-440891633_1" pos="67.39" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_16" lane="-19358019#14.184_2" pos="96.24" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_17" lane="-19358019#14.184_1" pos="96.20" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_18" lane="-617518142#1.91_2" pos="17.50" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_19" lane="-617518142#1.91_1" pos="17.48" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_2" lane="610966930#9_1" pos="10.76" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_20" lane="19358019#13_2" pos="55.79" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_21" lane="19358019#13_1" pos="54.68" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_22" lane="617518142#0.97_1" pos="50.18" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_23" lane="617518142#0.97_2" pos="50.07" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_24" lane="617518142#0.97_3" pos="49.21" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_25" lane="-19356382#0.103_2" pos="29.80" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_26" lane="-19356382#0.103_1" pos="29.61" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_27" lane="-19352484#0_1" pos="92.23" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_28" lane="-19356099#0_2" pos="85.67" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_29" lane="-19356099#0_1" pos="85.74" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_3" lane="610966930#9_2" pos="11.26" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_30" lane="617523920#3_2" pos="58.76" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_31" lane="617523920#3_1" pos="58.24" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_32" lane="-19348742#9_1" pos="69.54" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_33" lane="-617518142#8_1" pos="145.25" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_34" lane="19348742#8.211_2" pos="16.80" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_35" lane="19348742#8.211_1" pos="15.73" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_36" lane="617518142#7_1" pos="38.79" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_37" lane="-19348742#9_2" pos="69.64" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_38" lane="-411916245#0_2" pos="222.58" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_39" lane="-411916245#0_1" pos="222.55" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_4" lane="661061486#2_1" pos="1.87" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_40" lane="440891632#1.425_2" pos="91.94" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_41" lane="440891632#1.425_1" pos="91.00" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_42" lane="661055462_3" pos="46.01" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_43" lane="661055462_2" pos="45.80" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_44" lane="661055462_1" pos="45.49" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_45" lane="65356877#1_1" pos="135.19" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_46" lane="-288107045#0_1" pos="75.49" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_47" lane="-19354558#0_2" pos="40.05" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_48" lane="-19354558#0_1" pos="39.82" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_49" lane="71474894_1" pos="62.43" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_5" lane="440891614_3" pos="73.85" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_6" lane="440891614_2" pos="74.37" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_7" lane="440891614_1" pos="74.10" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_8" lane="-440891634_2" pos="79.20" period="300.00" file="NUL"/>
+    <inductionLoop id="e1_9" lane="-440891634_1" pos="79.15" period="300.00" file="NUL"/>
+</additional>

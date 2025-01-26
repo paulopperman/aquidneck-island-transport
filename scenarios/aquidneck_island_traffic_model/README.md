@@ -24,4 +24,6 @@ python <repo_directory>/tools/modifiedRouteSampler.py \
 
 ## Output processing
 
-Convert xml files to csv using `<SUMO_HOME>/tools/xml/xml2csv` and include the `--xsd` tag to use the corresponding xml schema from `<SUMO_HOME>/data/xsd/<output_file_type>.xsd`.
+Convert xml files to csv using `<SUMO_HOME>/tools/xml/xml2csv` and include the `--xsd` tag to use the corresponding xml schema from `<SUMO_HOME>/data/xsd/<output_file_type>.xsd`.  
+
+The `move_output_data.py` script converts data files to csv and moves them to the corresponding folder.  Pass the run name as the argument when calling the script: `move_output_data.py -s ai25_run0`

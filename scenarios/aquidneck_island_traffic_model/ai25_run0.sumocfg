@@ -2,7 +2,7 @@
   <input>
     <net-file value="../../network/aquidneck_island.net.xml"/>
     <route-files value="../../demand/route_files/aitm_baseline/hbnwauto25_run0.rou.xml, ../../demand/route_files/aitm_baseline/hbwauto25_run0.rou.xml, ../../demand/route_files/aitm_baseline/truck25_run0.rou.xml, ../../demand/route_files/aitm_baseline/nhbauto25_run0.rou.xml"/>
-    <additional-files value="../../network/additionals/polygons/aquidneck_island_polys.pol.xml, ../../network/additionals/navsta_gate_closures.add.xml, measurements/simulation_measurements.add.xml, ../../network/additionals/flow_calibrators/bridge_calibrators.add.xml, ../../detectors/ridot_continuous_detectors.add.xml"/>
+    <additional-files value="../../network/additionals/signal_detectors.add.xml, ../../network/additionals/polygons/aquidneck_island_polys.pol.xml, ../../network/additionals/navsta_gate_closures.add.xml, measurements/simulation_measurements.add.xml, ../../network/additionals/flow_calibrators/bridge_calibrators.add.xml, ../../detectors/ridot_continuous_detectors.add.xml"/>
     <weight-files value="../../network/additionals/edge_weights/aitm_baseline/navsta_edge_weights.add.xml, ../../network/additionals/edge_weights/aitm_baseline/edge_weights.add.xml"/>
   </input>
   <output>

@@ -1,5 +1,9 @@
+# A utility script to move detector data from the default output location to the run output folder.
+
 import sys, os, shutil
 import xml.etree.ElementTree as ET
+from argparse import ArgumentParser
+
 # add sumo tools to path to continue imports
 if "SUMO_HOME" in os.environ:
 	sumotools = os.path.join(os.environ['SUMO_HOME'], 'tools/xml')
@@ -10,8 +14,13 @@ else:
 
 import xml2csv
 
+parser = ArgumentParser()
+parser.add_argument("-s", "--scenario", required=True, help="scenario name")
+
+args = parser.parse_args()
+
 # specify the scenario
-scenario_name = "ai25_run0"
+scenario_name = args.scenario
 
 # convert standard outputs for the scenario
 try:
@@ -39,6 +48,12 @@ for file in datafiles:
 	shutil.move(file, './%s/%s'%(scenario_name,file))
 	csvfile = file.removesuffix('.xml') +'.csv'
 	shutil.move(csvfile, './%s/%s'%(scenario_name, csvfile))
+	print('Moved ' + file + ' to ' + scenario_name)
+
+# check to see if ridot_detectors directory exists, create if not
+if not os.path.isdir('./%s/ridot_detectors/'%(scenario_name)):
+	os.mkdir('./%s/ridot_detectors/'%(scenario_name))
+	print('Created ' + scenario_name + '/ridot_detectors folder')
 
 # convert and move ridot detector files
 det_files = ['../../../detectors/output/ridot_detectors/' + x for x in os.listdir('../../../detectors/output/ridot_detectors') if x.endswith('.xml')]
@@ -51,3 +66,4 @@ for file in det_files:
 	filename = file.split('/')[-1]
 	shutil.move(file, './%s/ridot_detectors/%s'%(scenario_name, filename))
 	shutil.move(file.removesuffix('.xml') + '.csv', './%s/ridot_detectors/%s' % (scenario_name, filename.removesuffix('.xml')+'.csv'))
+	print('Moved ' + file + ' to ' + scenario_name + '/ridot_detectors')
